@@ -33,7 +33,7 @@ class LogitechRead {
 class JoyInterpreter : public rclcpp::Node {
     public:
         JoyInterpreter() : Node("joy_interpreter") {
-            movement_pub_ = this->create_publisher<ackermann_msgs::msg::AckermannDrive>("rc_movement_msg", 1);
+            movement_pub_ = this->create_publisher<ackermann_msgs::msg::AckermannDrive>("rc_msg", 1);
             joy_sub_ = this->create_subscription<sensor_msgs::msg::Joy>("joy", 1, std::bind(&JoyInterpreter::joy_callback, this, std::placeholders::_1));
 
             this->declare_parameter<double>("joy_interpreter/teleop/deadzone", 0.1);

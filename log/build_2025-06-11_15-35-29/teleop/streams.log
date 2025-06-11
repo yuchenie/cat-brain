@@ -1,0 +1,30 @@
+[0.073s] Invoking command in '/home/erica/mercedes-brain/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/teleop -- -j4 -l4
+[0.271s] [35m[1mConsolidate compiler generated dependencies of target joy_interpreter[0m
+[0.380s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_interpreter.dir/src/joy_interpreter.cpp.o[0m
+[42.980s] [100%] [32m[1mLinking CXX executable joy_interpreter[0m
+[45.648s] [100%] Built target joy_interpreter
+[45.715s] Invoked command in '/home/erica/mercedes-brain/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/teleop -- -j4 -l4
+[45.764s] Invoking command in '/home/erica/mercedes-brain/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/teleop
+[45.810s] -- Install configuration: ""
+[45.813s] -- Installing: /home/erica/mercedes-brain/install/teleop/lib/teleop/joy_interpreter
+[45.844s] -- Set runtime path of "/home/erica/mercedes-brain/install/teleop/lib/teleop/joy_interpreter" to ""
+[45.845s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/launch
+[45.846s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/launch/launch.py
+[45.848s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/config
+[45.849s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/config/.gitkeep
+[45.849s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/ament_index/resource_index/package_run_dependencies/teleop
+[45.850s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/ament_index/resource_index/parent_prefix_path/teleop
+[45.851s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/ament_prefix_path.sh
+[45.851s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/ament_prefix_path.dsv
+[45.852s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/path.sh
+[45.855s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/path.dsv
+[45.856s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.bash
+[45.856s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.sh
+[45.867s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.zsh
+[45.868s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.dsv
+[45.870s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/package.dsv
+[45.871s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/ament_index/resource_index/packages/teleop
+[45.872s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/cmake/teleopConfig.cmake
+[45.873s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/cmake/teleopConfig-version.cmake
+[45.875s] -- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/package.xml
+[45.875s] Invoked command in '/home/erica/mercedes-brain/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/teleop

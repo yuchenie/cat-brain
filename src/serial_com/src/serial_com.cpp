@@ -28,7 +28,7 @@ class SerialNode : public rclcpp::Node {
                 RCLCPP_ERROR(this->get_logger(), "Serial port error: %s", e.what());
             }
 
-            rc_movement_sub_ = this->create_subscription<ackermann_msgs::msg::AckermannDrive>("rc_movement_msg", 1, std::bind(&SerialNode::rcMovementCallback, this, std::placeholders::_1));
+            rc_movement_sub_ = this->create_subscription<ackermann_msgs::msg::AckermannDrive>("rc_msg", 1, std::bind(&SerialNode::rcMovementCallback, this, std::placeholders::_1));
             serial_pub_ = this->create_publisher<std_msgs::msg::String>("serial_msg", 1);
             timer_ = this->create_wall_timer(std::chrono::milliseconds(100), std::bind(&SerialNode::timer_callback, this));
         }
