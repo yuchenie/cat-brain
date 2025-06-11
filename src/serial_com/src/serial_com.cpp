@@ -44,6 +44,7 @@ class SerialNode : public rclcpp::Node {
         // Parsed serial data from arduino
         int32_t reported_timestamp;
         float reported_steering_angle;
+        std::string serial_buffer_;
 
         rclcpp::Subscription<ackermann_msgs::msg::AckermannDrive>::SharedPtr rc_movement_sub_;
         rclcpp::Publisher<std_msgs::msg::String>::SharedPtr serial_pub_;
@@ -73,15 +74,27 @@ class SerialNode : public rclcpp::Node {
 
                 // read from serial port
                 try {
-                    std::string message = serial_port_.readline();
-                    if (message.c_str()) {
-                        RCLCPP_INFO(this->get_logger(), "%s", message.c_str());
-                        this->publishSerial(message.c_str());
+                    size_t bytes_available = serial_port_.available();
+                    if (bytes_available > 0) {
+                        std::string data = serial_port_.read(bytes_available);
+                        serial_buffer_ += data;
+
+                        // Extract complete lines
+                        size_t pos = 0;
+                        while ((pos = serial_buffer_.find('\n')) != std::string::npos) {
+                            std::string line = serial_buffer_.substr(0, pos);
+                            serial_buffer_.erase(0, pos + 1);
+
+                            if (!line.empty()) {
+                                RCLCPP_INFO(this->get_logger(), "%s", line.c_str());
+                                publishSerial(line);
+                            }
+                        }
                     }
                 } catch (const serial::IOException& e) {
                     RCLCPP_ERROR(this->get_logger(), "Serial read error: %s", e.what());
                 }
-                serial_port_.flushInput();
+                // serial_port_.flushInput();
             } else {
                 RCLCPP_INFO(this->get_logger(), "Serial port closed.");
             }

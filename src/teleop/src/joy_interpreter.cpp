@@ -22,7 +22,7 @@ class LogitechRead {
         }
 
         float get_right_stick_x() const {
-            return -axes_[3];
+            return axes_[3];
         }
 
     private:

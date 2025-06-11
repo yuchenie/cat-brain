@@ -1,0 +1,185 @@
+[0.423s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'teleop']
+[0.424s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['teleop'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9f383160>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9f4bc610>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9f4bc610>>)
+[1.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.225s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/erica/mercedes-brain'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extensions ['ignore', 'ignore_ament_install']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'ignore'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'ignore_ament_install'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extensions ['colcon_pkg']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'colcon_pkg'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extensions ['colcon_meta']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'colcon_meta'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extensions ['ros']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'ros'
+[1.292s] DEBUG:colcon.colcon_core.package_identification:Package 'src/brain' with type 'ros.ament_cmake' and name 'brain'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ignore'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ignore_ament_install'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['colcon_pkg']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'colcon_pkg'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['colcon_meta']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'colcon_meta'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extensions ['ros']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial-ros2) by extension 'ros'
+[1.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial-ros2' with type 'ros.ament_cmake' and name 'serial'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extensions ['ignore', 'ignore_ament_install']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extension 'ignore'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extension 'ignore_ament_install'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extensions ['colcon_pkg']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extension 'colcon_pkg'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extensions ['colcon_meta']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extension 'colcon_meta'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extensions ['ros']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com) by extension 'ros'
+[1.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_com' with type 'ros.ament_cmake' and name 'serial_com'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ignore'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ignore_ament_install'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['colcon_pkg']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'colcon_pkg'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['colcon_meta']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'colcon_meta'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['ros']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ros'
+[1.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop' with type 'ros.ament_cmake' and name 'teleop'
+[1.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'serial' in 'src/serial-ros2'
+[1.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'serial_com' in 'src/serial_com'
+[1.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'brain' in 'src/brain'
+[1.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.393s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/erica/mercedes-brain/install
+[1.402s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[1.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.602s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'teleop' is in: /home/erica/mercedes-brain/install/teleop
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding teleop
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_args' from command line to 'None'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_target' from command line to 'None'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.607s] DEBUG:colcon.colcon_core.verb:Building package 'teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erica/mercedes-brain/build/teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erica/mercedes-brain/install/teleop', 'merge_install': False, 'path': '/home/erica/mercedes-brain/src/teleop', 'symlink_install': False, 'test_result_base': None}
+[1.607s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.612s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erica/mercedes-brain/src/teleop' with build type 'ament_cmake'
+[1.613s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erica/mercedes-brain/src/teleop'
+[1.622s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erica/mercedes-brain/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/teleop -- -j4 -l4
+[2.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erica/mercedes-brain/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/teleop -- -j4 -l4
+[2.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erica/mercedes-brain/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/teleop
+[2.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop)
+[2.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erica/mercedes-brain/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/teleop
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop' for CMake module files
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop' for CMake config files
+[2.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop', 'cmake_prefix_path')
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erica/mercedes-brain/install/teleop/share/teleop/hook/cmake_prefix_path.ps1'
+[2.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erica/mercedes-brain/install/teleop/share/teleop/hook/cmake_prefix_path.dsv'
+[2.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erica/mercedes-brain/install/teleop/share/teleop/hook/cmake_prefix_path.sh'
+[2.189s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop/lib'
+[2.190s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop/bin'
+[2.190s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop/lib/pkgconfig/teleop.pc'
+[2.191s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop/lib/python3.10/site-packages'
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop/bin'
+[2.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/teleop/share/teleop/package.ps1'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erica/mercedes-brain/install/teleop/share/teleop/package.dsv'
+[2.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/teleop/share/teleop/package.sh'
+[2.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/teleop/share/teleop/package.bash'
+[2.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/teleop/share/teleop/package.zsh'
+[2.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erica/mercedes-brain/install/teleop/share/colcon-core/packages/teleop)
+[2.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop)
+[2.213s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop' for CMake module files
+[2.217s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop' for CMake config files
+[2.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop', 'cmake_prefix_path')
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erica/mercedes-brain/install/teleop/share/teleop/hook/cmake_prefix_path.ps1'
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erica/mercedes-brain/install/teleop/share/teleop/hook/cmake_prefix_path.dsv'
+[2.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erica/mercedes-brain/install/teleop/share/teleop/hook/cmake_prefix_path.sh'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop/lib'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop/bin'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop/lib/pkgconfig/teleop.pc'
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop/lib/python3.10/site-packages'
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/home/erica/mercedes-brain/install/teleop/bin'
+[2.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/teleop/share/teleop/package.ps1'
+[2.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erica/mercedes-brain/install/teleop/share/teleop/package.dsv'
+[2.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/teleop/share/teleop/package.sh'
+[2.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/teleop/share/teleop/package.bash'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/erica/mercedes-brain/install/teleop/share/teleop/package.zsh'
+[2.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erica/mercedes-brain/install/teleop/share/colcon-core/packages/teleop)
+[2.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.246s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.268s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.268s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.269s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.272s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.272s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erica/mercedes-brain/install/local_setup.ps1'
+[2.277s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erica/mercedes-brain/install/_local_setup_util_ps1.py'
+[2.284s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erica/mercedes-brain/install/setup.ps1'
+[2.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erica/mercedes-brain/install/local_setup.sh'
+[2.294s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erica/mercedes-brain/install/_local_setup_util_sh.py'
+[2.297s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erica/mercedes-brain/install/setup.sh'
+[2.303s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erica/mercedes-brain/install/local_setup.bash'
+[2.306s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erica/mercedes-brain/install/setup.bash'
+[2.311s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erica/mercedes-brain/install/local_setup.zsh'
+[2.314s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erica/mercedes-brain/install/setup.zsh'

@@ -1,0 +1,386 @@
+[0.000000] (-) TimerEvent: {}
+[0.001779] (-) JobUnselected: {'identifier': 'brain'}
+[0.002346] (-) JobUnselected: {'identifier': 'serial'}
+[0.002853] (-) JobUnselected: {'identifier': 'serial_com'}
+[0.003048] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.003339] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.040761] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[0.044150] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'build'}
+[0.047442] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erica/mercedes-brain/build/teleop', '--', '-j4', '-l4'], 'cwd': '/home/erica/mercedes-brain/build/teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 65095 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/erica/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/mercedes-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/erica/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1004/vscode-ipc-3cbfb19c-defd-44f2-bd9d-4c1ed3c4381c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/erica/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/erica/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/erica/mercedes-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/erica/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1004/vscode-git-2990e80641.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/erica/mercedes-brain/build/teleop'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 65095 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/serial:/opt/ros/humble')]), 'shell': False}
+[0.098997] (-) TimerEvent: {}
+[0.199784] (-) TimerEvent: {}
+[0.297766] (teleop) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_interpreter.dir/src/joy_interpreter.cpp.o\x1b[0m\n'}
+[0.300019] (-) TimerEvent: {}
+[0.400777] (-) TimerEvent: {}
+[0.501470] (-) TimerEvent: {}
+[0.602171] (-) TimerEvent: {}
+[0.702976] (-) TimerEvent: {}
+[0.803954] (-) TimerEvent: {}
+[0.904636] (-) TimerEvent: {}
+[1.005331] (-) TimerEvent: {}
+[1.106044] (-) TimerEvent: {}
+[1.206789] (-) TimerEvent: {}
+[1.307490] (-) TimerEvent: {}
+[1.408242] (-) TimerEvent: {}
+[1.509023] (-) TimerEvent: {}
+[1.609839] (-) TimerEvent: {}
+[1.710821] (-) TimerEvent: {}
+[1.811587] (-) TimerEvent: {}
+[1.912346] (-) TimerEvent: {}
+[2.013115] (-) TimerEvent: {}
+[2.113929] (-) TimerEvent: {}
+[2.214718] (-) TimerEvent: {}
+[2.315556] (-) TimerEvent: {}
+[2.416455] (-) TimerEvent: {}
+[2.517219] (-) TimerEvent: {}
+[2.618050] (-) TimerEvent: {}
+[2.718895] (-) TimerEvent: {}
+[2.819673] (-) TimerEvent: {}
+[2.920523] (-) TimerEvent: {}
+[3.021324] (-) TimerEvent: {}
+[3.122157] (-) TimerEvent: {}
+[3.223031] (-) TimerEvent: {}
+[3.323842] (-) TimerEvent: {}
+[3.424600] (-) TimerEvent: {}
+[3.525449] (-) TimerEvent: {}
+[3.626334] (-) TimerEvent: {}
+[3.727222] (-) TimerEvent: {}
+[3.828082] (-) TimerEvent: {}
+[3.929056] (-) TimerEvent: {}
+[4.029895] (-) TimerEvent: {}
+[4.130727] (-) TimerEvent: {}
+[4.231585] (-) TimerEvent: {}
+[4.332421] (-) TimerEvent: {}
+[4.433168] (-) TimerEvent: {}
+[4.534107] (-) TimerEvent: {}
+[4.635340] (-) TimerEvent: {}
+[4.736155] (-) TimerEvent: {}
+[4.836946] (-) TimerEvent: {}
+[4.937736] (-) TimerEvent: {}
+[5.038577] (-) TimerEvent: {}
+[5.139413] (-) TimerEvent: {}
+[5.240283] (-) TimerEvent: {}
+[5.341077] (-) TimerEvent: {}
+[5.441891] (-) TimerEvent: {}
+[5.542673] (-) TimerEvent: {}
+[5.643502] (-) TimerEvent: {}
+[5.744393] (-) TimerEvent: {}
+[5.845175] (-) TimerEvent: {}
+[5.945972] (-) TimerEvent: {}
+[6.046818] (-) TimerEvent: {}
+[6.147594] (-) TimerEvent: {}
+[6.248382] (-) TimerEvent: {}
+[6.349156] (-) TimerEvent: {}
+[6.449940] (-) TimerEvent: {}
+[6.550761] (-) TimerEvent: {}
+[6.651544] (-) TimerEvent: {}
+[6.752407] (-) TimerEvent: {}
+[6.853217] (-) TimerEvent: {}
+[6.954009] (-) TimerEvent: {}
+[7.054871] (-) TimerEvent: {}
+[7.155687] (-) TimerEvent: {}
+[7.256531] (-) TimerEvent: {}
+[7.357345] (-) TimerEvent: {}
+[7.458170] (-) TimerEvent: {}
+[7.559060] (-) TimerEvent: {}
+[7.659978] (-) TimerEvent: {}
+[7.760825] (-) TimerEvent: {}
+[7.861616] (-) TimerEvent: {}
+[7.962418] (-) TimerEvent: {}
+[8.063254] (-) TimerEvent: {}
+[8.164160] (-) TimerEvent: {}
+[8.265013] (-) TimerEvent: {}
+[8.365917] (-) TimerEvent: {}
+[8.467001] (-) TimerEvent: {}
+[8.567902] (-) TimerEvent: {}
+[8.668700] (-) TimerEvent: {}
+[8.769517] (-) TimerEvent: {}
+[8.870411] (-) TimerEvent: {}
+[8.971285] (-) TimerEvent: {}
+[9.072138] (-) TimerEvent: {}
+[9.172954] (-) TimerEvent: {}
+[9.273776] (-) TimerEvent: {}
+[9.374591] (-) TimerEvent: {}
+[9.475432] (-) TimerEvent: {}
+[9.576255] (-) TimerEvent: {}
+[9.677075] (-) TimerEvent: {}
+[9.777887] (-) TimerEvent: {}
+[9.878752] (-) TimerEvent: {}
+[9.979655] (-) TimerEvent: {}
+[10.080497] (-) TimerEvent: {}
+[10.181363] (-) TimerEvent: {}
+[10.282209] (-) TimerEvent: {}
+[10.383043] (-) TimerEvent: {}
+[10.483874] (-) TimerEvent: {}
+[10.584627] (-) TimerEvent: {}
+[10.685449] (-) TimerEvent: {}
+[10.786267] (-) TimerEvent: {}
+[10.887110] (-) TimerEvent: {}
+[10.987963] (-) TimerEvent: {}
+[11.088749] (-) TimerEvent: {}
+[11.189616] (-) TimerEvent: {}
+[11.290452] (-) TimerEvent: {}
+[11.391295] (-) TimerEvent: {}
+[11.492128] (-) TimerEvent: {}
+[11.592921] (-) TimerEvent: {}
+[11.693753] (-) TimerEvent: {}
+[11.794546] (-) TimerEvent: {}
+[11.895386] (-) TimerEvent: {}
+[11.996219] (-) TimerEvent: {}
+[12.097041] (-) TimerEvent: {}
+[12.197846] (-) TimerEvent: {}
+[12.298636] (-) TimerEvent: {}
+[12.399445] (-) TimerEvent: {}
+[12.500268] (-) TimerEvent: {}
+[12.601042] (-) TimerEvent: {}
+[12.701833] (-) TimerEvent: {}
+[12.802667] (-) TimerEvent: {}
+[12.903467] (-) TimerEvent: {}
+[13.004296] (-) TimerEvent: {}
+[13.105160] (-) TimerEvent: {}
+[13.205928] (-) TimerEvent: {}
+[13.306731] (-) TimerEvent: {}
+[13.407634] (-) TimerEvent: {}
+[13.508674] (-) TimerEvent: {}
+[13.609450] (-) TimerEvent: {}
+[13.710327] (-) TimerEvent: {}
+[13.811219] (-) TimerEvent: {}
+[13.912230] (-) TimerEvent: {}
+[14.013013] (-) TimerEvent: {}
+[14.113853] (-) TimerEvent: {}
+[14.214641] (-) TimerEvent: {}
+[14.315442] (-) TimerEvent: {}
+[14.416252] (-) TimerEvent: {}
+[14.517019] (-) TimerEvent: {}
+[14.617885] (-) TimerEvent: {}
+[14.718761] (-) TimerEvent: {}
+[14.819578] (-) TimerEvent: {}
+[14.920460] (-) TimerEvent: {}
+[15.021241] (-) TimerEvent: {}
+[15.122036] (-) TimerEvent: {}
+[15.222817] (-) TimerEvent: {}
+[15.323612] (-) TimerEvent: {}
+[15.424467] (-) TimerEvent: {}
+[15.525308] (-) TimerEvent: {}
+[15.626214] (-) TimerEvent: {}
+[15.727134] (-) TimerEvent: {}
+[15.828018] (-) TimerEvent: {}
+[15.928823] (-) TimerEvent: {}
+[16.029627] (-) TimerEvent: {}
+[16.130435] (-) TimerEvent: {}
+[16.231252] (-) TimerEvent: {}
+[16.332152] (-) TimerEvent: {}
+[16.432943] (-) TimerEvent: {}
+[16.533736] (-) TimerEvent: {}
+[16.634539] (-) TimerEvent: {}
+[16.735317] (-) TimerEvent: {}
+[16.836141] (-) TimerEvent: {}
+[16.936915] (-) TimerEvent: {}
+[17.037724] (-) TimerEvent: {}
+[17.138590] (-) TimerEvent: {}
+[17.239443] (-) TimerEvent: {}
+[17.340298] (-) TimerEvent: {}
+[17.441188] (-) TimerEvent: {}
+[17.542396] (-) TimerEvent: {}
+[17.643168] (-) TimerEvent: {}
+[17.743974] (-) TimerEvent: {}
+[17.844703] (-) TimerEvent: {}
+[17.945469] (-) TimerEvent: {}
+[18.046300] (-) TimerEvent: {}
+[18.147101] (-) TimerEvent: {}
+[18.247954] (-) TimerEvent: {}
+[18.348764] (-) TimerEvent: {}
+[18.449673] (-) TimerEvent: {}
+[18.550641] (-) TimerEvent: {}
+[18.651523] (-) TimerEvent: {}
+[18.752465] (-) TimerEvent: {}
+[18.853276] (-) TimerEvent: {}
+[18.954130] (-) TimerEvent: {}
+[19.054940] (-) TimerEvent: {}
+[19.155779] (-) TimerEvent: {}
+[19.256642] (-) TimerEvent: {}
+[19.357627] (-) TimerEvent: {}
+[19.458611] (-) TimerEvent: {}
+[19.559605] (-) TimerEvent: {}
+[19.660453] (-) TimerEvent: {}
+[19.761435] (-) TimerEvent: {}
+[19.862275] (-) TimerEvent: {}
+[19.963133] (-) TimerEvent: {}
+[20.063952] (-) TimerEvent: {}
+[20.164737] (-) TimerEvent: {}
+[20.265500] (-) TimerEvent: {}
+[20.366349] (-) TimerEvent: {}
+[20.467384] (-) TimerEvent: {}
+[20.568185] (-) TimerEvent: {}
+[20.669044] (-) TimerEvent: {}
+[20.769874] (-) TimerEvent: {}
+[20.870679] (-) TimerEvent: {}
+[20.971491] (-) TimerEvent: {}
+[21.072281] (-) TimerEvent: {}
+[21.173069] (-) TimerEvent: {}
+[21.273863] (-) TimerEvent: {}
+[21.374621] (-) TimerEvent: {}
+[21.475473] (-) TimerEvent: {}
+[21.576370] (-) TimerEvent: {}
+[21.677157] (-) TimerEvent: {}
+[21.777939] (-) TimerEvent: {}
+[21.878758] (-) TimerEvent: {}
+[21.979547] (-) TimerEvent: {}
+[22.080352] (-) TimerEvent: {}
+[22.181148] (-) TimerEvent: {}
+[22.281947] (-) TimerEvent: {}
+[22.382743] (-) TimerEvent: {}
+[22.483571] (-) TimerEvent: {}
+[22.584366] (-) TimerEvent: {}
+[22.685163] (-) TimerEvent: {}
+[22.785905] (-) TimerEvent: {}
+[22.886668] (-) TimerEvent: {}
+[22.987483] (-) TimerEvent: {}
+[23.088293] (-) TimerEvent: {}
+[23.189150] (-) TimerEvent: {}
+[23.289965] (-) TimerEvent: {}
+[23.390833] (-) TimerEvent: {}
+[23.491728] (-) TimerEvent: {}
+[23.592711] (-) TimerEvent: {}
+[23.693548] (-) TimerEvent: {}
+[23.794334] (-) TimerEvent: {}
+[23.895389] (-) TimerEvent: {}
+[23.996226] (-) TimerEvent: {}
+[24.097050] (-) TimerEvent: {}
+[24.197906] (-) TimerEvent: {}
+[24.298664] (-) TimerEvent: {}
+[24.399468] (-) TimerEvent: {}
+[24.500257] (-) TimerEvent: {}
+[24.601150] (-) TimerEvent: {}
+[24.701953] (-) TimerEvent: {}
+[24.802720] (-) TimerEvent: {}
+[24.903598] (-) TimerEvent: {}
+[25.004448] (-) TimerEvent: {}
+[25.105233] (-) TimerEvent: {}
+[25.206049] (-) TimerEvent: {}
+[25.306876] (-) TimerEvent: {}
+[25.407729] (-) TimerEvent: {}
+[25.508567] (-) TimerEvent: {}
+[25.609324] (-) TimerEvent: {}
+[25.710151] (-) TimerEvent: {}
+[25.810877] (-) TimerEvent: {}
+[25.911648] (-) TimerEvent: {}
+[26.012481] (-) TimerEvent: {}
+[26.113333] (-) TimerEvent: {}
+[26.214097] (-) TimerEvent: {}
+[26.314853] (-) TimerEvent: {}
+[26.415723] (-) TimerEvent: {}
+[26.516547] (-) TimerEvent: {}
+[26.617349] (-) TimerEvent: {}
+[26.718169] (-) TimerEvent: {}
+[26.818958] (-) TimerEvent: {}
+[26.919784] (-) TimerEvent: {}
+[27.020567] (-) TimerEvent: {}
+[27.121381] (-) TimerEvent: {}
+[27.222210] (-) TimerEvent: {}
+[27.323005] (-) TimerEvent: {}
+[27.423842] (-) TimerEvent: {}
+[27.524645] (-) TimerEvent: {}
+[27.625441] (-) TimerEvent: {}
+[27.726243] (-) TimerEvent: {}
+[27.827021] (-) TimerEvent: {}
+[27.927849] (-) TimerEvent: {}
+[28.028655] (-) TimerEvent: {}
+[28.129483] (-) TimerEvent: {}
+[28.230300] (-) TimerEvent: {}
+[28.331082] (-) TimerEvent: {}
+[28.431996] (-) TimerEvent: {}
+[28.532905] (-) TimerEvent: {}
+[28.633706] (-) TimerEvent: {}
+[28.734532] (-) TimerEvent: {}
+[28.835344] (-) TimerEvent: {}
+[28.936214] (-) TimerEvent: {}
+[29.036963] (-) TimerEvent: {}
+[29.137760] (-) TimerEvent: {}
+[29.238539] (-) TimerEvent: {}
+[29.339347] (-) TimerEvent: {}
+[29.440144] (-) TimerEvent: {}
+[29.540944] (-) TimerEvent: {}
+[29.641774] (-) TimerEvent: {}
+[29.742599] (-) TimerEvent: {}
+[29.843453] (-) TimerEvent: {}
+[29.944588] (-) TimerEvent: {}
+[30.045747] (-) TimerEvent: {}
+[30.146710] (-) TimerEvent: {}
+[30.247630] (-) TimerEvent: {}
+[30.348470] (-) TimerEvent: {}
+[30.449230] (-) TimerEvent: {}
+[30.550020] (-) TimerEvent: {}
+[30.650786] (-) TimerEvent: {}
+[30.751555] (-) TimerEvent: {}
+[30.852394] (-) TimerEvent: {}
+[30.953162] (-) TimerEvent: {}
+[31.053928] (-) TimerEvent: {}
+[31.154708] (-) TimerEvent: {}
+[31.255531] (-) TimerEvent: {}
+[31.356337] (-) TimerEvent: {}
+[31.457105] (-) TimerEvent: {}
+[31.557864] (-) TimerEvent: {}
+[31.658659] (-) TimerEvent: {}
+[31.759480] (-) TimerEvent: {}
+[31.860423] (-) TimerEvent: {}
+[31.961239] (-) TimerEvent: {}
+[32.062195] (-) TimerEvent: {}
+[32.163193] (-) TimerEvent: {}
+[32.263995] (-) TimerEvent: {}
+[32.364799] (-) TimerEvent: {}
+[32.465821] (-) TimerEvent: {}
+[32.567153] (-) TimerEvent: {}
+[32.667939] (-) TimerEvent: {}
+[32.725493] (teleop) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joy_interpreter\x1b[0m\n'}
+[32.768112] (-) TimerEvent: {}
+[32.868820] (-) TimerEvent: {}
+[32.969705] (-) TimerEvent: {}
+[33.070631] (-) TimerEvent: {}
+[33.171646] (-) TimerEvent: {}
+[33.272894] (-) TimerEvent: {}
+[33.373914] (-) TimerEvent: {}
+[33.474900] (-) TimerEvent: {}
+[33.576696] (-) TimerEvent: {}
+[33.677936] (-) TimerEvent: {}
+[33.778819] (-) TimerEvent: {}
+[33.879691] (-) TimerEvent: {}
+[33.980488] (-) TimerEvent: {}
+[34.081588] (-) TimerEvent: {}
+[34.182321] (-) TimerEvent: {}
+[34.283026] (-) TimerEvent: {}
+[34.383949] (-) TimerEvent: {}
+[34.484829] (-) TimerEvent: {}
+[34.585526] (-) TimerEvent: {}
+[34.672653] (teleop) StdoutLine: {'line': b'[100%] Built target joy_interpreter\n'}
+[34.685789] (-) TimerEvent: {}
+[34.712350] (teleop) CommandEnded: {'returncode': 0}
+[34.714624] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'install'}
+[34.750684] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/erica/mercedes-brain/build/teleop'], 'cwd': '/home/erica/mercedes-brain/build/teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 65095 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/erica/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/mercedes-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/erica/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1004/vscode-ipc-3cbfb19c-defd-44f2-bd9d-4c1ed3c4381c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/erica/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/erica/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/erica/mercedes-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/erica/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1004/vscode-git-2990e80641.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/erica/mercedes-brain/build/teleop'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 65095 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/mercedes-brain/install/serial:/opt/ros/humble')]), 'shell': False}
+[34.784643] (teleop) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.785802] (teleop) StdoutLine: {'line': b'-- Installing: /home/erica/mercedes-brain/install/teleop/lib/teleop/joy_interpreter\n'}
+[34.786259] (-) TimerEvent: {}
+[34.814424] (teleop) StdoutLine: {'line': b'-- Set runtime path of "/home/erica/mercedes-brain/install/teleop/lib/teleop/joy_interpreter" to ""\n'}
+[34.815095] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/launch\n'}
+[34.815636] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/launch/launch.py\n'}
+[34.816182] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/config\n'}
+[34.816631] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/config/.gitkeep\n'}
+[34.817068] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/ament_index/resource_index/package_run_dependencies/teleop\n'}
+[34.817560] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/ament_index/resource_index/parent_prefix_path/teleop\n'}
+[34.817999] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/ament_prefix_path.sh\n'}
+[34.818458] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/ament_prefix_path.dsv\n'}
+[34.818892] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/path.sh\n'}
+[34.819324] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/path.dsv\n'}
+[34.819754] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.bash\n'}
+[34.820183] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.sh\n'}
+[34.820515] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.zsh\n'}
+[34.820844] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.dsv\n'}
+[34.821387] (teleop) StdoutLine: {'line': b'-- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/package.dsv\n'}
+[34.821824] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/ament_index/resource_index/packages/teleop\n'}
+[34.822195] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/cmake/teleopConfig.cmake\n'}
+[34.822598] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/cmake/teleopConfig-version.cmake\n'}
+[34.822978] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/package.xml\n'}
+[34.827114] (teleop) CommandEnded: {'returncode': 0}
+[34.887007] (-) TimerEvent: {}
+[34.906217] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 0}
+[34.908964] (-) EventReactorShutdown: {}

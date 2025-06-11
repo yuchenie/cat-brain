@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target serial_com[0m
+[100%] Built target serial_com
+-- Install configuration: ""
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/lib/serial_com/serial_com
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/launch
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/launch/launch.py
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/config
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/config/.gitkeep
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/ament_index/resource_index/package_run_dependencies/serial_com
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/ament_index/resource_index/parent_prefix_path/serial_com
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/environment/ament_prefix_path.sh
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/environment/path.sh
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/environment/path.dsv
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/local_setup.bash
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/local_setup.sh
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/local_setup.zsh
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/local_setup.dsv
+-- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/package.dsv
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/ament_index/resource_index/packages/serial_com
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/cmake/serial_comConfig.cmake
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/cmake/serial_comConfig-version.cmake
+-- Up-to-date: /home/erica/mercedes-brain/install/serial_com/share/serial_com/package.xml

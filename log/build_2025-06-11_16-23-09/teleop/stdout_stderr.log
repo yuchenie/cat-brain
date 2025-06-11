@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/joy_interpreter.dir/src/joy_interpreter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable joy_interpreter[0m
+[100%] Built target joy_interpreter
+-- Install configuration: ""
+-- Installing: /home/erica/mercedes-brain/install/teleop/lib/teleop/joy_interpreter
+-- Set runtime path of "/home/erica/mercedes-brain/install/teleop/lib/teleop/joy_interpreter" to ""
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/launch
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/launch/launch.py
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/config
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/config/.gitkeep
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/ament_index/resource_index/package_run_dependencies/teleop
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/ament_index/resource_index/parent_prefix_path/teleop
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/ament_prefix_path.sh
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/path.sh
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/path.dsv
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.bash
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.sh
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.zsh
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.dsv
+-- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/package.dsv
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/ament_index/resource_index/packages/teleop
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/cmake/teleopConfig.cmake
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/cmake/teleopConfig-version.cmake
+-- Up-to-date: /home/erica/mercedes-brain/install/teleop/share/teleop/package.xml
