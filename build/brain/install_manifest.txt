@@ -1,0 +1,17 @@
+/home/erica/test_ws/install/brain/share/brain/launch/launch.py
+/home/erica/test_ws/install/brain/share/brain/config/.gitkeep
+/home/erica/test_ws/install/brain/share/ament_index/resource_index/package_run_dependencies/brain
+/home/erica/test_ws/install/brain/share/ament_index/resource_index/parent_prefix_path/brain
+/home/erica/test_ws/install/brain/share/brain/environment/ament_prefix_path.sh
+/home/erica/test_ws/install/brain/share/brain/environment/ament_prefix_path.dsv
+/home/erica/test_ws/install/brain/share/brain/environment/path.sh
+/home/erica/test_ws/install/brain/share/brain/environment/path.dsv
+/home/erica/test_ws/install/brain/share/brain/local_setup.bash
+/home/erica/test_ws/install/brain/share/brain/local_setup.sh
+/home/erica/test_ws/install/brain/share/brain/local_setup.zsh
+/home/erica/test_ws/install/brain/share/brain/local_setup.dsv
+/home/erica/test_ws/install/brain/share/brain/package.dsv
+/home/erica/test_ws/install/brain/share/ament_index/resource_index/packages/brain
+/home/erica/test_ws/install/brain/share/brain/cmake/brainConfig.cmake
+/home/erica/test_ws/install/brain/share/brain/cmake/brainConfig-version.cmake
+/home/erica/test_ws/install/brain/share/brain/package.xml

@@ -1,0 +1,4 @@
+Invoking command in '/home/erica/test_ws/build/serial_com': CMAKE_PREFIX_PATH=/home/erica/test_ws/install/serial:/home/erica/test_ws/install/serial_com:/opt/ros/humble /usr/bin/cmake --build /home/erica/test_ws/build/serial_com -- -j4 -l4
+Invoked command in '/home/erica/test_ws/build/serial_com' returned '0': CMAKE_PREFIX_PATH=/home/erica/test_ws/install/serial:/home/erica/test_ws/install/serial_com:/opt/ros/humble /usr/bin/cmake --build /home/erica/test_ws/build/serial_com -- -j4 -l4
+Invoking command in '/home/erica/test_ws/build/serial_com': CMAKE_PREFIX_PATH=/home/erica/test_ws/install/serial:/home/erica/test_ws/install/serial_com:/opt/ros/humble /usr/bin/cmake --install /home/erica/test_ws/build/serial_com
+Invoked command in '/home/erica/test_ws/build/serial_com' returned '0': CMAKE_PREFIX_PATH=/home/erica/test_ws/install/serial:/home/erica/test_ws/install/serial_com:/opt/ros/humble /usr/bin/cmake --install /home/erica/test_ws/build/serial_com

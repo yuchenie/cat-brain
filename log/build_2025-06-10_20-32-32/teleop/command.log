@@ -1,0 +1,1 @@
+Invoking command in '/home/erica/test_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/erica/test_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/erica/test_ws/install/teleop

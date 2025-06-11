@@ -1,0 +1,383 @@
+[0.000000] (-) TimerEvent: {}
+[0.001606] (-) JobUnselected: {'identifier': 'serial'}
+[0.002173] (-) JobUnselected: {'identifier': 'teleop'}
+[0.002648] (serial_com) JobQueued: {'identifier': 'serial_com', 'dependencies': OrderedDict([('serial', '/home/erica/test_ws/install/serial')])}
+[0.002855] (serial_com) JobStarted: {'identifier': 'serial_com'}
+[0.045650] (serial_com) JobProgress: {'identifier': 'serial_com', 'progress': 'cmake'}
+[0.049045] (serial_com) JobProgress: {'identifier': 'serial_com', 'progress': 'build'}
+[0.052453] (serial_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erica/test_ws/build/serial_com', '--', '-j4', '-l4'], 'cwd': '/home/erica/test_ws/build/serial_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 55148 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/test_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica/test_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/test_ws/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/test_ws/build/serial_com'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 55148 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/test_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[0.099068] (-) TimerEvent: {}
+[0.199913] (-) TimerEvent: {}
+[0.223738] (serial_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_com\x1b[0m\n'}
+[0.300206] (-) TimerEvent: {}
+[0.313761] (serial_com) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_com.dir/src/serial_com.cpp.o\x1b[0m\n'}
+[0.400384] (-) TimerEvent: {}
+[0.501219] (-) TimerEvent: {}
+[0.601929] (-) TimerEvent: {}
+[0.702702] (-) TimerEvent: {}
+[0.803469] (-) TimerEvent: {}
+[0.904165] (-) TimerEvent: {}
+[1.004903] (-) TimerEvent: {}
+[1.105663] (-) TimerEvent: {}
+[1.206348] (-) TimerEvent: {}
+[1.307071] (-) TimerEvent: {}
+[1.407819] (-) TimerEvent: {}
+[1.508520] (-) TimerEvent: {}
+[1.609314] (-) TimerEvent: {}
+[1.710009] (-) TimerEvent: {}
+[1.810821] (-) TimerEvent: {}
+[1.911626] (-) TimerEvent: {}
+[2.012425] (-) TimerEvent: {}
+[2.113300] (-) TimerEvent: {}
+[2.214080] (-) TimerEvent: {}
+[2.314850] (-) TimerEvent: {}
+[2.415631] (-) TimerEvent: {}
+[2.516422] (-) TimerEvent: {}
+[2.617242] (-) TimerEvent: {}
+[2.717987] (-) TimerEvent: {}
+[2.818777] (-) TimerEvent: {}
+[2.919562] (-) TimerEvent: {}
+[3.020394] (-) TimerEvent: {}
+[3.121201] (-) TimerEvent: {}
+[3.221982] (-) TimerEvent: {}
+[3.322777] (-) TimerEvent: {}
+[3.423586] (-) TimerEvent: {}
+[3.524409] (-) TimerEvent: {}
+[3.625259] (-) TimerEvent: {}
+[3.726046] (-) TimerEvent: {}
+[3.826900] (-) TimerEvent: {}
+[3.927696] (-) TimerEvent: {}
+[4.028504] (-) TimerEvent: {}
+[4.129338] (-) TimerEvent: {}
+[4.230215] (-) TimerEvent: {}
+[4.330982] (-) TimerEvent: {}
+[4.431793] (-) TimerEvent: {}
+[4.532681] (-) TimerEvent: {}
+[4.633507] (-) TimerEvent: {}
+[4.734284] (-) TimerEvent: {}
+[4.835080] (-) TimerEvent: {}
+[4.935881] (-) TimerEvent: {}
+[5.036671] (-) TimerEvent: {}
+[5.137499] (-) TimerEvent: {}
+[5.238295] (-) TimerEvent: {}
+[5.339091] (-) TimerEvent: {}
+[5.439867] (-) TimerEvent: {}
+[5.540665] (-) TimerEvent: {}
+[5.641447] (-) TimerEvent: {}
+[5.742227] (-) TimerEvent: {}
+[5.843008] (-) TimerEvent: {}
+[5.943804] (-) TimerEvent: {}
+[6.044590] (-) TimerEvent: {}
+[6.145384] (-) TimerEvent: {}
+[6.246157] (-) TimerEvent: {}
+[6.346966] (-) TimerEvent: {}
+[6.447808] (-) TimerEvent: {}
+[6.548618] (-) TimerEvent: {}
+[6.649435] (-) TimerEvent: {}
+[6.750231] (-) TimerEvent: {}
+[6.851018] (-) TimerEvent: {}
+[6.951802] (-) TimerEvent: {}
+[7.052617] (-) TimerEvent: {}
+[7.153509] (-) TimerEvent: {}
+[7.254310] (-) TimerEvent: {}
+[7.355126] (-) TimerEvent: {}
+[7.455932] (-) TimerEvent: {}
+[7.556700] (-) TimerEvent: {}
+[7.657542] (-) TimerEvent: {}
+[7.758318] (-) TimerEvent: {}
+[7.859115] (-) TimerEvent: {}
+[7.959949] (-) TimerEvent: {}
+[8.060823] (-) TimerEvent: {}
+[8.161634] (-) TimerEvent: {}
+[8.262408] (-) TimerEvent: {}
+[8.363258] (-) TimerEvent: {}
+[8.464090] (-) TimerEvent: {}
+[8.564922] (-) TimerEvent: {}
+[8.665745] (-) TimerEvent: {}
+[8.766553] (-) TimerEvent: {}
+[8.867431] (-) TimerEvent: {}
+[8.968225] (-) TimerEvent: {}
+[9.069030] (-) TimerEvent: {}
+[9.169883] (-) TimerEvent: {}
+[9.270686] (-) TimerEvent: {}
+[9.371523] (-) TimerEvent: {}
+[9.472332] (-) TimerEvent: {}
+[9.573159] (-) TimerEvent: {}
+[9.673949] (-) TimerEvent: {}
+[9.774778] (-) TimerEvent: {}
+[9.875582] (-) TimerEvent: {}
+[9.976367] (-) TimerEvent: {}
+[10.077244] (-) TimerEvent: {}
+[10.178010] (-) TimerEvent: {}
+[10.278821] (-) TimerEvent: {}
+[10.379603] (-) TimerEvent: {}
+[10.480416] (-) TimerEvent: {}
+[10.581228] (-) TimerEvent: {}
+[10.681981] (-) TimerEvent: {}
+[10.782741] (-) TimerEvent: {}
+[10.883567] (-) TimerEvent: {}
+[10.984350] (-) TimerEvent: {}
+[11.085183] (-) TimerEvent: {}
+[11.185956] (-) TimerEvent: {}
+[11.286739] (-) TimerEvent: {}
+[11.387533] (-) TimerEvent: {}
+[11.488326] (-) TimerEvent: {}
+[11.589147] (-) TimerEvent: {}
+[11.689920] (-) TimerEvent: {}
+[11.790694] (-) TimerEvent: {}
+[11.891504] (-) TimerEvent: {}
+[11.992283] (-) TimerEvent: {}
+[12.093053] (-) TimerEvent: {}
+[12.193843] (-) TimerEvent: {}
+[12.294619] (-) TimerEvent: {}
+[12.395466] (-) TimerEvent: {}
+[12.496252] (-) TimerEvent: {}
+[12.597027] (-) TimerEvent: {}
+[12.697828] (-) TimerEvent: {}
+[12.798592] (-) TimerEvent: {}
+[12.899406] (-) TimerEvent: {}
+[13.000238] (-) TimerEvent: {}
+[13.101116] (-) TimerEvent: {}
+[13.201888] (-) TimerEvent: {}
+[13.302671] (-) TimerEvent: {}
+[13.403501] (-) TimerEvent: {}
+[13.504283] (-) TimerEvent: {}
+[13.605109] (-) TimerEvent: {}
+[13.705923] (-) TimerEvent: {}
+[13.806781] (-) TimerEvent: {}
+[13.907557] (-) TimerEvent: {}
+[14.008389] (-) TimerEvent: {}
+[14.109236] (-) TimerEvent: {}
+[14.210045] (-) TimerEvent: {}
+[14.310868] (-) TimerEvent: {}
+[14.411695] (-) TimerEvent: {}
+[14.512593] (-) TimerEvent: {}
+[14.613624] (-) TimerEvent: {}
+[14.714412] (-) TimerEvent: {}
+[14.815191] (-) TimerEvent: {}
+[14.915989] (-) TimerEvent: {}
+[15.016824] (-) TimerEvent: {}
+[15.117692] (-) TimerEvent: {}
+[15.218522] (-) TimerEvent: {}
+[15.319368] (-) TimerEvent: {}
+[15.420217] (-) TimerEvent: {}
+[15.521101] (-) TimerEvent: {}
+[15.621895] (-) TimerEvent: {}
+[15.722678] (-) TimerEvent: {}
+[15.823457] (-) TimerEvent: {}
+[15.924229] (-) TimerEvent: {}
+[16.025027] (-) TimerEvent: {}
+[16.125841] (-) TimerEvent: {}
+[16.226659] (-) TimerEvent: {}
+[16.327439] (-) TimerEvent: {}
+[16.428226] (-) TimerEvent: {}
+[16.529105] (-) TimerEvent: {}
+[16.629883] (-) TimerEvent: {}
+[16.730659] (-) TimerEvent: {}
+[16.831453] (-) TimerEvent: {}
+[16.932274] (-) TimerEvent: {}
+[17.033054] (-) TimerEvent: {}
+[17.133911] (-) TimerEvent: {}
+[17.234678] (-) TimerEvent: {}
+[17.335448] (-) TimerEvent: {}
+[17.436187] (-) TimerEvent: {}
+[17.536890] (-) TimerEvent: {}
+[17.637686] (-) TimerEvent: {}
+[17.738434] (-) TimerEvent: {}
+[17.839239] (-) TimerEvent: {}
+[17.940068] (-) TimerEvent: {}
+[18.040910] (-) TimerEvent: {}
+[18.141845] (-) TimerEvent: {}
+[18.242639] (-) TimerEvent: {}
+[18.343465] (-) TimerEvent: {}
+[18.444273] (-) TimerEvent: {}
+[18.545060] (-) TimerEvent: {}
+[18.645858] (-) TimerEvent: {}
+[18.746652] (-) TimerEvent: {}
+[18.847536] (-) TimerEvent: {}
+[18.948560] (-) TimerEvent: {}
+[19.049375] (-) TimerEvent: {}
+[19.150720] (-) TimerEvent: {}
+[19.251681] (-) TimerEvent: {}
+[19.352630] (-) TimerEvent: {}
+[19.453469] (-) TimerEvent: {}
+[19.554244] (-) TimerEvent: {}
+[19.654997] (-) TimerEvent: {}
+[19.755859] (-) TimerEvent: {}
+[19.856705] (-) TimerEvent: {}
+[19.957532] (-) TimerEvent: {}
+[20.058316] (-) TimerEvent: {}
+[20.159126] (-) TimerEvent: {}
+[20.259918] (-) TimerEvent: {}
+[20.360739] (-) TimerEvent: {}
+[20.461547] (-) TimerEvent: {}
+[20.562334] (-) TimerEvent: {}
+[20.663116] (-) TimerEvent: {}
+[20.763948] (-) TimerEvent: {}
+[20.864752] (-) TimerEvent: {}
+[20.965539] (-) TimerEvent: {}
+[21.066321] (-) TimerEvent: {}
+[21.167100] (-) TimerEvent: {}
+[21.267958] (-) TimerEvent: {}
+[21.368764] (-) TimerEvent: {}
+[21.469578] (-) TimerEvent: {}
+[21.570398] (-) TimerEvent: {}
+[21.671172] (-) TimerEvent: {}
+[21.772008] (-) TimerEvent: {}
+[21.872767] (-) TimerEvent: {}
+[21.973570] (-) TimerEvent: {}
+[22.074355] (-) TimerEvent: {}
+[22.175164] (-) TimerEvent: {}
+[22.275942] (-) TimerEvent: {}
+[22.376722] (-) TimerEvent: {}
+[22.477523] (-) TimerEvent: {}
+[22.578304] (-) TimerEvent: {}
+[22.679043] (-) TimerEvent: {}
+[22.780286] (-) TimerEvent: {}
+[22.881140] (-) TimerEvent: {}
+[22.981918] (-) TimerEvent: {}
+[23.082724] (-) TimerEvent: {}
+[23.183498] (-) TimerEvent: {}
+[23.284292] (-) TimerEvent: {}
+[23.385041] (-) TimerEvent: {}
+[23.485854] (-) TimerEvent: {}
+[23.586636] (-) TimerEvent: {}
+[23.687454] (-) TimerEvent: {}
+[23.788225] (-) TimerEvent: {}
+[23.889012] (-) TimerEvent: {}
+[23.989804] (-) TimerEvent: {}
+[24.090621] (-) TimerEvent: {}
+[24.191357] (-) TimerEvent: {}
+[24.292177] (-) TimerEvent: {}
+[24.392964] (-) TimerEvent: {}
+[24.493797] (-) TimerEvent: {}
+[24.594528] (-) TimerEvent: {}
+[24.695304] (-) TimerEvent: {}
+[24.796090] (-) TimerEvent: {}
+[24.896863] (-) TimerEvent: {}
+[24.997689] (-) TimerEvent: {}
+[25.098453] (-) TimerEvent: {}
+[25.199211] (-) TimerEvent: {}
+[25.300005] (-) TimerEvent: {}
+[25.400801] (-) TimerEvent: {}
+[25.501620] (-) TimerEvent: {}
+[25.602388] (-) TimerEvent: {}
+[25.703126] (-) TimerEvent: {}
+[25.803967] (-) TimerEvent: {}
+[25.904759] (-) TimerEvent: {}
+[26.005533] (-) TimerEvent: {}
+[26.106335] (-) TimerEvent: {}
+[26.207093] (-) TimerEvent: {}
+[26.307927] (-) TimerEvent: {}
+[26.408740] (-) TimerEvent: {}
+[26.509566] (-) TimerEvent: {}
+[26.610362] (-) TimerEvent: {}
+[26.711160] (-) TimerEvent: {}
+[26.811983] (-) TimerEvent: {}
+[26.912764] (-) TimerEvent: {}
+[27.013524] (-) TimerEvent: {}
+[27.114305] (-) TimerEvent: {}
+[27.215086] (-) TimerEvent: {}
+[27.315876] (-) TimerEvent: {}
+[27.416661] (-) TimerEvent: {}
+[27.517449] (-) TimerEvent: {}
+[27.618200] (-) TimerEvent: {}
+[27.718972] (-) TimerEvent: {}
+[27.819758] (-) TimerEvent: {}
+[27.920533] (-) TimerEvent: {}
+[28.021334] (-) TimerEvent: {}
+[28.122111] (-) TimerEvent: {}
+[28.222893] (-) TimerEvent: {}
+[28.323677] (-) TimerEvent: {}
+[28.424495] (-) TimerEvent: {}
+[28.525237] (-) TimerEvent: {}
+[28.625957] (-) TimerEvent: {}
+[28.726730] (-) TimerEvent: {}
+[28.827544] (-) TimerEvent: {}
+[28.928310] (-) TimerEvent: {}
+[29.029147] (-) TimerEvent: {}
+[29.129923] (-) TimerEvent: {}
+[29.230694] (-) TimerEvent: {}
+[29.331486] (-) TimerEvent: {}
+[29.432303] (-) TimerEvent: {}
+[29.533135] (-) TimerEvent: {}
+[29.633886] (-) TimerEvent: {}
+[29.734936] (-) TimerEvent: {}
+[29.836193] (-) TimerEvent: {}
+[29.936982] (-) TimerEvent: {}
+[30.037766] (-) TimerEvent: {}
+[30.138523] (-) TimerEvent: {}
+[30.239321] (-) TimerEvent: {}
+[30.340122] (-) TimerEvent: {}
+[30.440967] (-) TimerEvent: {}
+[30.541783] (-) TimerEvent: {}
+[30.642567] (-) TimerEvent: {}
+[30.743350] (-) TimerEvent: {}
+[30.844150] (-) TimerEvent: {}
+[30.944957] (-) TimerEvent: {}
+[31.045758] (-) TimerEvent: {}
+[31.146567] (-) TimerEvent: {}
+[31.247404] (-) TimerEvent: {}
+[31.348240] (-) TimerEvent: {}
+[31.449008] (-) TimerEvent: {}
+[31.549803] (-) TimerEvent: {}
+[31.650560] (-) TimerEvent: {}
+[31.751796] (-) TimerEvent: {}
+[31.853900] (-) TimerEvent: {}
+[31.954689] (-) TimerEvent: {}
+[32.055562] (-) TimerEvent: {}
+[32.156650] (-) TimerEvent: {}
+[32.258305] (-) TimerEvent: {}
+[32.359020] (-) TimerEvent: {}
+[32.440643] (serial_com) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial_com\x1b[0m\n'}
+[32.459205] (-) TimerEvent: {}
+[32.560184] (-) TimerEvent: {}
+[32.661214] (-) TimerEvent: {}
+[32.762083] (-) TimerEvent: {}
+[32.863108] (-) TimerEvent: {}
+[32.964176] (-) TimerEvent: {}
+[33.065042] (-) TimerEvent: {}
+[33.165909] (-) TimerEvent: {}
+[33.267050] (-) TimerEvent: {}
+[33.368239] (-) TimerEvent: {}
+[33.469376] (-) TimerEvent: {}
+[33.570651] (-) TimerEvent: {}
+[33.671666] (-) TimerEvent: {}
+[33.772432] (-) TimerEvent: {}
+[33.873321] (-) TimerEvent: {}
+[33.974432] (-) TimerEvent: {}
+[34.075257] (-) TimerEvent: {}
+[34.176346] (-) TimerEvent: {}
+[34.277375] (-) TimerEvent: {}
+[34.378038] (-) TimerEvent: {}
+[34.422513] (serial_com) StdoutLine: {'line': b'[100%] Built target serial_com\n'}
+[34.460632] (serial_com) CommandEnded: {'returncode': 0}
+[34.462894] (serial_com) JobProgress: {'identifier': 'serial_com', 'progress': 'install'}
+[34.478256] (-) TimerEvent: {}
+[34.495434] (serial_com) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/erica/test_ws/build/serial_com'], 'cwd': '/home/erica/test_ws/build/serial_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 55148 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/test_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica/test_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/test_ws/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/test_ws/build/serial_com'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 55148 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/test_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[34.528805] (serial_com) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.529594] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/lib/serial_com/serial_com\n'}
+[34.557824] (serial_com) StdoutLine: {'line': b'-- Set runtime path of "/home/erica/test_ws/install/serial_com/lib/serial_com/serial_com" to ""\n'}
+[34.558427] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/launch\n'}
+[34.558950] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/launch/launch.py\n'}
+[34.559678] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/config\n'}
+[34.560364] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/config/.gitkeep\n'}
+[34.561786] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/ament_index/resource_index/package_run_dependencies/serial_com\n'}
+[34.563307] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/ament_index/resource_index/parent_prefix_path/serial_com\n'}
+[34.564760] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/environment/ament_prefix_path.sh\n'}
+[34.565912] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/environment/ament_prefix_path.dsv\n'}
+[34.567040] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/environment/path.sh\n'}
+[34.568074] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/environment/path.dsv\n'}
+[34.569162] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/local_setup.bash\n'}
+[34.570215] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/local_setup.sh\n'}
+[34.571309] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/local_setup.zsh\n'}
+[34.572334] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/local_setup.dsv\n'}
+[34.573420] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/package.dsv\n'}
+[34.574995] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/ament_index/resource_index/packages/serial_com\n'}
+[34.576299] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/cmake/serial_comConfig.cmake\n'}
+[34.577331] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/cmake/serial_comConfig-version.cmake\n'}
+[34.578336] (-) TimerEvent: {}
+[34.578832] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial_com/share/serial_com/package.xml\n'}
+[34.584054] (serial_com) CommandEnded: {'returncode': 0}
+[34.659456] (serial_com) JobEnded: {'identifier': 'serial_com', 'rc': 0}
+[34.662214] (-) EventReactorShutdown: {}

@@ -1,0 +1,388 @@
+[0.000000] (-) TimerEvent: {}
+[0.001680] (-) JobUnselected: {'identifier': 'brain'}
+[0.002254] (-) JobUnselected: {'identifier': 'serial'}
+[0.002762] (-) JobUnselected: {'identifier': 'serial_com'}
+[0.002958] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.003254] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.038492] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[0.041349] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'build'}
+[0.044539] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erica/test_ws/build/teleop', '--', '-j4', '-l4'], 'cwd': '/home/erica/test_ws/build/teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 59892 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/test_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/test_ws/install/brain:/home/erica/test_ws/install/teleop:/home/erica/test_ws/install/serial_com:/home/erica/test_ws/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/test_ws/build/teleop'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 59892 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/test_ws/install/brain:/home/erica/test_ws/install/teleop:/home/erica/test_ws/install/serial_com:/home/erica/test_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[0.099078] (-) TimerEvent: {}
+[0.199909] (-) TimerEvent: {}
+[0.219043] (teleop) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joy_interpreter\x1b[0m\n'}
+[0.300162] (-) TimerEvent: {}
+[0.311141] (teleop) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_interpreter.dir/src/joy_interpreter.cpp.o\x1b[0m\n'}
+[0.400335] (-) TimerEvent: {}
+[0.501107] (-) TimerEvent: {}
+[0.601833] (-) TimerEvent: {}
+[0.702577] (-) TimerEvent: {}
+[0.803327] (-) TimerEvent: {}
+[0.904043] (-) TimerEvent: {}
+[1.004746] (-) TimerEvent: {}
+[1.105535] (-) TimerEvent: {}
+[1.206414] (-) TimerEvent: {}
+[1.307135] (-) TimerEvent: {}
+[1.407846] (-) TimerEvent: {}
+[1.508627] (-) TimerEvent: {}
+[1.609351] (-) TimerEvent: {}
+[1.710667] (-) TimerEvent: {}
+[1.811369] (-) TimerEvent: {}
+[1.912082] (-) TimerEvent: {}
+[2.012932] (-) TimerEvent: {}
+[2.113712] (-) TimerEvent: {}
+[2.214479] (-) TimerEvent: {}
+[2.315298] (-) TimerEvent: {}
+[2.416123] (-) TimerEvent: {}
+[2.517023] (-) TimerEvent: {}
+[2.617789] (-) TimerEvent: {}
+[2.718560] (-) TimerEvent: {}
+[2.819381] (-) TimerEvent: {}
+[2.920179] (-) TimerEvent: {}
+[3.020975] (-) TimerEvent: {}
+[3.121745] (-) TimerEvent: {}
+[3.222590] (-) TimerEvent: {}
+[3.323403] (-) TimerEvent: {}
+[3.424182] (-) TimerEvent: {}
+[3.524976] (-) TimerEvent: {}
+[3.625796] (-) TimerEvent: {}
+[3.726561] (-) TimerEvent: {}
+[3.827395] (-) TimerEvent: {}
+[3.928287] (-) TimerEvent: {}
+[4.029162] (-) TimerEvent: {}
+[4.129980] (-) TimerEvent: {}
+[4.230867] (-) TimerEvent: {}
+[4.331713] (-) TimerEvent: {}
+[4.432489] (-) TimerEvent: {}
+[4.533440] (-) TimerEvent: {}
+[4.634254] (-) TimerEvent: {}
+[4.735065] (-) TimerEvent: {}
+[4.835878] (-) TimerEvent: {}
+[4.936686] (-) TimerEvent: {}
+[5.037503] (-) TimerEvent: {}
+[5.138293] (-) TimerEvent: {}
+[5.239090] (-) TimerEvent: {}
+[5.339879] (-) TimerEvent: {}
+[5.440694] (-) TimerEvent: {}
+[5.541505] (-) TimerEvent: {}
+[5.642267] (-) TimerEvent: {}
+[5.743079] (-) TimerEvent: {}
+[5.843863] (-) TimerEvent: {}
+[5.944649] (-) TimerEvent: {}
+[6.045525] (-) TimerEvent: {}
+[6.146321] (-) TimerEvent: {}
+[6.247124] (-) TimerEvent: {}
+[6.347949] (-) TimerEvent: {}
+[6.448755] (-) TimerEvent: {}
+[6.549594] (-) TimerEvent: {}
+[6.650421] (-) TimerEvent: {}
+[6.751218] (-) TimerEvent: {}
+[6.851998] (-) TimerEvent: {}
+[6.952769] (-) TimerEvent: {}
+[7.053594] (-) TimerEvent: {}
+[7.154375] (-) TimerEvent: {}
+[7.255159] (-) TimerEvent: {}
+[7.355986] (-) TimerEvent: {}
+[7.456750] (-) TimerEvent: {}
+[7.557564] (-) TimerEvent: {}
+[7.658321] (-) TimerEvent: {}
+[7.759113] (-) TimerEvent: {}
+[7.859887] (-) TimerEvent: {}
+[7.960692] (-) TimerEvent: {}
+[8.061515] (-) TimerEvent: {}
+[8.162281] (-) TimerEvent: {}
+[8.263070] (-) TimerEvent: {}
+[8.363861] (-) TimerEvent: {}
+[8.464642] (-) TimerEvent: {}
+[8.565459] (-) TimerEvent: {}
+[8.666295] (-) TimerEvent: {}
+[8.767128] (-) TimerEvent: {}
+[8.868030] (-) TimerEvent: {}
+[8.969000] (-) TimerEvent: {}
+[9.069788] (-) TimerEvent: {}
+[9.170572] (-) TimerEvent: {}
+[9.271389] (-) TimerEvent: {}
+[9.372216] (-) TimerEvent: {}
+[9.473025] (-) TimerEvent: {}
+[9.573800] (-) TimerEvent: {}
+[9.674545] (-) TimerEvent: {}
+[9.775335] (-) TimerEvent: {}
+[9.876117] (-) TimerEvent: {}
+[9.976959] (-) TimerEvent: {}
+[10.077723] (-) TimerEvent: {}
+[10.178535] (-) TimerEvent: {}
+[10.279327] (-) TimerEvent: {}
+[10.380106] (-) TimerEvent: {}
+[10.480916] (-) TimerEvent: {}
+[10.581658] (-) TimerEvent: {}
+[10.682437] (-) TimerEvent: {}
+[10.783250] (-) TimerEvent: {}
+[10.884021] (-) TimerEvent: {}
+[10.984779] (-) TimerEvent: {}
+[11.085710] (-) TimerEvent: {}
+[11.186486] (-) TimerEvent: {}
+[11.287274] (-) TimerEvent: {}
+[11.388064] (-) TimerEvent: {}
+[11.488859] (-) TimerEvent: {}
+[11.589692] (-) TimerEvent: {}
+[11.690510] (-) TimerEvent: {}
+[11.791300] (-) TimerEvent: {}
+[11.892125] (-) TimerEvent: {}
+[11.992941] (-) TimerEvent: {}
+[12.093732] (-) TimerEvent: {}
+[12.194526] (-) TimerEvent: {}
+[12.295344] (-) TimerEvent: {}
+[12.396140] (-) TimerEvent: {}
+[12.496948] (-) TimerEvent: {}
+[12.597742] (-) TimerEvent: {}
+[12.698516] (-) TimerEvent: {}
+[12.799327] (-) TimerEvent: {}
+[12.900151] (-) TimerEvent: {}
+[13.001036] (-) TimerEvent: {}
+[13.101824] (-) TimerEvent: {}
+[13.202614] (-) TimerEvent: {}
+[13.303450] (-) TimerEvent: {}
+[13.404265] (-) TimerEvent: {}
+[13.505074] (-) TimerEvent: {}
+[13.605941] (-) TimerEvent: {}
+[13.706779] (-) TimerEvent: {}
+[13.807585] (-) TimerEvent: {}
+[13.908407] (-) TimerEvent: {}
+[14.009210] (-) TimerEvent: {}
+[14.109996] (-) TimerEvent: {}
+[14.210771] (-) TimerEvent: {}
+[14.311553] (-) TimerEvent: {}
+[14.412338] (-) TimerEvent: {}
+[14.513229] (-) TimerEvent: {}
+[14.614420] (-) TimerEvent: {}
+[14.716212] (-) TimerEvent: {}
+[14.817035] (-) TimerEvent: {}
+[14.917835] (-) TimerEvent: {}
+[15.018646] (-) TimerEvent: {}
+[15.119479] (-) TimerEvent: {}
+[15.220281] (-) TimerEvent: {}
+[15.321123] (-) TimerEvent: {}
+[15.421942] (-) TimerEvent: {}
+[15.522790] (-) TimerEvent: {}
+[15.623591] (-) TimerEvent: {}
+[15.724420] (-) TimerEvent: {}
+[15.825240] (-) TimerEvent: {}
+[15.926031] (-) TimerEvent: {}
+[16.026818] (-) TimerEvent: {}
+[16.127682] (-) TimerEvent: {}
+[16.228464] (-) TimerEvent: {}
+[16.329501] (-) TimerEvent: {}
+[16.430322] (-) TimerEvent: {}
+[16.531081] (-) TimerEvent: {}
+[16.631847] (-) TimerEvent: {}
+[16.732644] (-) TimerEvent: {}
+[16.833457] (-) TimerEvent: {}
+[16.934249] (-) TimerEvent: {}
+[17.035053] (-) TimerEvent: {}
+[17.135871] (-) TimerEvent: {}
+[17.236773] (-) TimerEvent: {}
+[17.338009] (-) TimerEvent: {}
+[17.438743] (-) TimerEvent: {}
+[17.539459] (-) TimerEvent: {}
+[17.640167] (-) TimerEvent: {}
+[17.740986] (-) TimerEvent: {}
+[17.841772] (-) TimerEvent: {}
+[17.942559] (-) TimerEvent: {}
+[18.043398] (-) TimerEvent: {}
+[18.144253] (-) TimerEvent: {}
+[18.245051] (-) TimerEvent: {}
+[18.345963] (-) TimerEvent: {}
+[18.447338] (-) TimerEvent: {}
+[18.548549] (-) TimerEvent: {}
+[18.649414] (-) TimerEvent: {}
+[18.750193] (-) TimerEvent: {}
+[18.850987] (-) TimerEvent: {}
+[18.951757] (-) TimerEvent: {}
+[19.052634] (-) TimerEvent: {}
+[19.153885] (-) TimerEvent: {}
+[19.255395] (-) TimerEvent: {}
+[19.356328] (-) TimerEvent: {}
+[19.457126] (-) TimerEvent: {}
+[19.557896] (-) TimerEvent: {}
+[19.658669] (-) TimerEvent: {}
+[19.759434] (-) TimerEvent: {}
+[19.860252] (-) TimerEvent: {}
+[19.961051] (-) TimerEvent: {}
+[20.061812] (-) TimerEvent: {}
+[20.162609] (-) TimerEvent: {}
+[20.263408] (-) TimerEvent: {}
+[20.364132] (-) TimerEvent: {}
+[20.464950] (-) TimerEvent: {}
+[20.565721] (-) TimerEvent: {}
+[20.666502] (-) TimerEvent: {}
+[20.767331] (-) TimerEvent: {}
+[20.868199] (-) TimerEvent: {}
+[20.968987] (-) TimerEvent: {}
+[21.069760] (-) TimerEvent: {}
+[21.170533] (-) TimerEvent: {}
+[21.271349] (-) TimerEvent: {}
+[21.372129] (-) TimerEvent: {}
+[21.472939] (-) TimerEvent: {}
+[21.573693] (-) TimerEvent: {}
+[21.674460] (-) TimerEvent: {}
+[21.775267] (-) TimerEvent: {}
+[21.876092] (-) TimerEvent: {}
+[21.976846] (-) TimerEvent: {}
+[22.077696] (-) TimerEvent: {}
+[22.178470] (-) TimerEvent: {}
+[22.279260] (-) TimerEvent: {}
+[22.379995] (-) TimerEvent: {}
+[22.480780] (-) TimerEvent: {}
+[22.581566] (-) TimerEvent: {}
+[22.682296] (-) TimerEvent: {}
+[22.783099] (-) TimerEvent: {}
+[22.883865] (-) TimerEvent: {}
+[22.984596] (-) TimerEvent: {}
+[23.085394] (-) TimerEvent: {}
+[23.186145] (-) TimerEvent: {}
+[23.286934] (-) TimerEvent: {}
+[23.387692] (-) TimerEvent: {}
+[23.488473] (-) TimerEvent: {}
+[23.589277] (-) TimerEvent: {}
+[23.690052] (-) TimerEvent: {}
+[23.790822] (-) TimerEvent: {}
+[23.891671] (-) TimerEvent: {}
+[23.992440] (-) TimerEvent: {}
+[24.093240] (-) TimerEvent: {}
+[24.194025] (-) TimerEvent: {}
+[24.294797] (-) TimerEvent: {}
+[24.395594] (-) TimerEvent: {}
+[24.496341] (-) TimerEvent: {}
+[24.597123] (-) TimerEvent: {}
+[24.697908] (-) TimerEvent: {}
+[24.798665] (-) TimerEvent: {}
+[24.899438] (-) TimerEvent: {}
+[25.000232] (-) TimerEvent: {}
+[25.101012] (-) TimerEvent: {}
+[25.201743] (-) TimerEvent: {}
+[25.302523] (-) TimerEvent: {}
+[25.403313] (-) TimerEvent: {}
+[25.504051] (-) TimerEvent: {}
+[25.604825] (-) TimerEvent: {}
+[25.705615] (-) TimerEvent: {}
+[25.806386] (-) TimerEvent: {}
+[25.907155] (-) TimerEvent: {}
+[26.007966] (-) TimerEvent: {}
+[26.108724] (-) TimerEvent: {}
+[26.209520] (-) TimerEvent: {}
+[26.310314] (-) TimerEvent: {}
+[26.411098] (-) TimerEvent: {}
+[26.511833] (-) TimerEvent: {}
+[26.612661] (-) TimerEvent: {}
+[26.713487] (-) TimerEvent: {}
+[26.814243] (-) TimerEvent: {}
+[26.914999] (-) TimerEvent: {}
+[27.015772] (-) TimerEvent: {}
+[27.116569] (-) TimerEvent: {}
+[27.217374] (-) TimerEvent: {}
+[27.318187] (-) TimerEvent: {}
+[27.418946] (-) TimerEvent: {}
+[27.519689] (-) TimerEvent: {}
+[27.620458] (-) TimerEvent: {}
+[27.721295] (-) TimerEvent: {}
+[27.822063] (-) TimerEvent: {}
+[27.922820] (-) TimerEvent: {}
+[28.023667] (-) TimerEvent: {}
+[28.124492] (-) TimerEvent: {}
+[28.225297] (-) TimerEvent: {}
+[28.326061] (-) TimerEvent: {}
+[28.426832] (-) TimerEvent: {}
+[28.527608] (-) TimerEvent: {}
+[28.628390] (-) TimerEvent: {}
+[28.729216] (-) TimerEvent: {}
+[28.829969] (-) TimerEvent: {}
+[28.930744] (-) TimerEvent: {}
+[29.031506] (-) TimerEvent: {}
+[29.132321] (-) TimerEvent: {}
+[29.233092] (-) TimerEvent: {}
+[29.333866] (-) TimerEvent: {}
+[29.434834] (-) TimerEvent: {}
+[29.536062] (-) TimerEvent: {}
+[29.637247] (-) TimerEvent: {}
+[29.790207] (-) TimerEvent: {}
+[29.891341] (-) TimerEvent: {}
+[29.992612] (-) TimerEvent: {}
+[30.093814] (-) TimerEvent: {}
+[30.194915] (-) TimerEvent: {}
+[30.296047] (-) TimerEvent: {}
+[30.396971] (-) TimerEvent: {}
+[30.497751] (-) TimerEvent: {}
+[30.598540] (-) TimerEvent: {}
+[30.699315] (-) TimerEvent: {}
+[30.800112] (-) TimerEvent: {}
+[30.900896] (-) TimerEvent: {}
+[31.001676] (-) TimerEvent: {}
+[31.102441] (-) TimerEvent: {}
+[31.203237] (-) TimerEvent: {}
+[31.303989] (-) TimerEvent: {}
+[31.404760] (-) TimerEvent: {}
+[31.505574] (-) TimerEvent: {}
+[31.606326] (-) TimerEvent: {}
+[31.707089] (-) TimerEvent: {}
+[31.807856] (-) TimerEvent: {}
+[31.908907] (-) TimerEvent: {}
+[32.009680] (-) TimerEvent: {}
+[32.110441] (-) TimerEvent: {}
+[32.211359] (-) TimerEvent: {}
+[32.312444] (-) TimerEvent: {}
+[32.413558] (-) TimerEvent: {}
+[32.514362] (-) TimerEvent: {}
+[32.615346] (-) TimerEvent: {}
+[32.716321] (-) TimerEvent: {}
+[32.817222] (-) TimerEvent: {}
+[32.918697] (-) TimerEvent: {}
+[32.939745] (teleop) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joy_interpreter\x1b[0m\n'}
+[33.018934] (-) TimerEvent: {}
+[33.119985] (-) TimerEvent: {}
+[33.220985] (-) TimerEvent: {}
+[33.321937] (-) TimerEvent: {}
+[33.422917] (-) TimerEvent: {}
+[33.524178] (-) TimerEvent: {}
+[33.625081] (-) TimerEvent: {}
+[33.726023] (-) TimerEvent: {}
+[33.827233] (-) TimerEvent: {}
+[33.928423] (-) TimerEvent: {}
+[34.029364] (-) TimerEvent: {}
+[34.130481] (-) TimerEvent: {}
+[34.231266] (-) TimerEvent: {}
+[34.332414] (-) TimerEvent: {}
+[34.433541] (-) TimerEvent: {}
+[34.534249] (-) TimerEvent: {}
+[34.635066] (-) TimerEvent: {}
+[34.735724] (-) TimerEvent: {}
+[34.836416] (-) TimerEvent: {}
+[34.861062] (teleop) StdoutLine: {'line': b'[100%] Built target joy_interpreter\n'}
+[34.901121] (teleop) CommandEnded: {'returncode': 0}
+[34.903107] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'install'}
+[34.937405] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/erica/test_ws/build/teleop'], 'cwd': '/home/erica/test_ws/build/teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 59892 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/test_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/test_ws/install/brain:/home/erica/test_ws/install/teleop:/home/erica/test_ws/install/serial_com:/home/erica/test_ws/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/test_ws/build/teleop'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 59892 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/test_ws/install/brain:/home/erica/test_ws/install/teleop:/home/erica/test_ws/install/serial_com:/home/erica/test_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[34.942016] (-) TimerEvent: {}
+[34.966661] (teleop) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.967831] (teleop) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/teleop/lib/teleop/joy_interpreter\n'}
+[35.002902] (teleop) StdoutLine: {'line': b'-- Set runtime path of "/home/erica/test_ws/install/teleop/lib/teleop/joy_interpreter" to ""\n'}
+[35.003611] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/launch\n'}
+[35.004165] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/launch/launch.py\n'}
+[35.004622] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/config\n'}
+[35.005126] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/config/.gitkeep\n'}
+[35.005655] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/ament_index/resource_index/package_run_dependencies/teleop\n'}
+[35.006096] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/ament_index/resource_index/parent_prefix_path/teleop\n'}
+[35.006610] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/environment/ament_prefix_path.sh\n'}
+[35.007057] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/environment/ament_prefix_path.dsv\n'}
+[35.007555] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/environment/path.sh\n'}
+[35.008020] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/environment/path.dsv\n'}
+[35.008380] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/local_setup.bash\n'}
+[35.008757] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/local_setup.sh\n'}
+[35.009287] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/local_setup.zsh\n'}
+[35.009814] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/local_setup.dsv\n'}
+[35.010282] (teleop) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/teleop/share/teleop/package.dsv\n'}
+[35.010677] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/ament_index/resource_index/packages/teleop\n'}
+[35.011089] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/cmake/teleopConfig.cmake\n'}
+[35.011491] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/cmake/teleopConfig-version.cmake\n'}
+[35.011978] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/test_ws/install/teleop/share/teleop/package.xml\n'}
+[35.015308] (teleop) CommandEnded: {'returncode': 0}
+[35.042415] (-) TimerEvent: {}
+[35.094034] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 0}
+[35.097141] (-) EventReactorShutdown: {}

@@ -1,0 +1,76 @@
+[0.050s] Invoking command in '/home/erica/test_ws/build/serial_com': AMENT_PREFIX_PATH=/home/erica/test_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erica/test_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/erica/test_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/erica/test_ws/src/serial_com -DCMAKE_INSTALL_PREFIX=/home/erica/test_ws/install/serial_com
+[0.100s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.646s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.797s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.807s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.830s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.867s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.037s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.043s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.811s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.992s] -- Found serial: 1.2.1 (/home/erica/test_ws/install/serial/share/serial/cmake)
+[2.013s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[2.085s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.525s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.526s] -- Configured cppcheck include dirs: 
+[2.526s] -- Configured cppcheck exclude dirs and/or files: 
+[2.529s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.533s] -- Added test 'lint_cmake' to check CMake code style
+[2.536s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.544s] -- Added test 'uncrustify' to check C / C++ code style
+[2.545s] -- Configured uncrustify additional arguments: 
+[2.548s] -- Added test 'xmllint' to check XML markup files
+[2.555s] -- Configuring done
+[2.608s] -- Generating done
+[2.623s] -- Build files have been written to: /home/erica/test_ws/build/serial_com
+[2.650s] Invoked command in '/home/erica/test_ws/build/serial_com' returned '0': AMENT_PREFIX_PATH=/home/erica/test_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erica/test_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/erica/test_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/erica/test_ws/src/serial_com -DCMAKE_INSTALL_PREFIX=/home/erica/test_ws/install/serial_com
+[2.660s] Invoking command in '/home/erica/test_ws/build/serial_com': AMENT_PREFIX_PATH=/home/erica/test_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erica/test_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/erica/test_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/erica/test_ws/build/serial_com -- -j4 -l4
+[2.862s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_com.dir/src/serial_com.cpp.o[0m
+[12.938s] [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:48:42:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[12.938s]    48 |         rclcpp::Publisher<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr serial_pub_;
+[12.939s]       |                                          [01;31m[K^~~~~~[m[K
+[12.939s] [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:48:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.939s]    48 |         rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr serial_pub_;
+[12.940s]       |                                                [01;31m[K^[m[K
+[12.942s] [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:48:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[12.942s]    48 |         rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K serial_pub_;
+[12.942s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[12.942s]       |                                                            [32m[K;[m[K
+[12.951s] [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:48:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_pub_[m[K’ does not name a type
+[12.952s]    48 |         rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kserial_pub_[m[K;
+[12.952s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[13.011s] [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:[m[K In constructor ‘[01m[KSerialNode::SerialNode()[m[K’:
+[13.012s] [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:31:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kserial_port_[m[K’?
+[13.013s]    31 |             [01;31m[Kserial_pub_[m[K = this->create_publisher<std_msgs::msg::String>("serial_msg", 1);
+[13.013s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[13.013s]       |             [32m[Kserial_port_[m[K
+[13.014s] [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:31:65:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[13.014s]    31 |             serial_pub_ = this->create_publisher<std_msgs::msg::[01;31m[KString[m[K>("serial_msg", 1);
+[13.014s]       |                                                                 [01;31m[K^~~~~~[m[K
+[13.014s] [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:31:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSerialNode::create_publisher<<expression error> >(const char [11], int)[m[K’
+[13.015s]    31 |             serial_pub_ = [01;31m[Kthis->create_publisher<std_msgs::msg::String>("serial_msg", 1)[m[K;
+[13.015s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[13.017s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[13.018s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[13.018s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.018s]                  from [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:1[m[K:
+[13.019s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[13.019s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[13.019s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[13.020s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.020s] [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:31:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.021s]    31 |             serial_pub_ = [01;31m[Kthis->create_publisher<std_msgs::msg::String>("serial_msg", 1)[m[K;
+[13.021s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[13.067s] [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:[m[K In member function ‘[01m[Kvoid SerialNode::publishSerial(const string&)[m[K’:
+[13.068s] [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:91:43:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[13.068s]    91 |             auto message = std_msgs::msg::[01;31m[KString[m[K();
+[13.069s]       |                                           [01;31m[K^~~~~~[m[K
+[13.089s] [01m[K/home/erica/test_ws/src/serial_com/src/serial_com.cpp:97:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kserial_port_[m[K’?
+[13.089s]    97 |             [01;31m[Kserial_pub_[m[K->publish(message);
+[13.090s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[13.091s]       |             [32m[Kserial_port_[m[K
+[21.242s] gmake[2]: *** [CMakeFiles/serial_com.dir/build.make:76: CMakeFiles/serial_com.dir/src/serial_com.cpp.o] Error 1
+[21.242s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/serial_com.dir/all] Error 2
+[21.243s] gmake: *** [Makefile:146: all] Error 2
+[21.250s] Invoked command in '/home/erica/test_ws/build/serial_com' returned '2': AMENT_PREFIX_PATH=/home/erica/test_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erica/test_ws/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/erica/test_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/erica/test_ws/build/serial_com -- -j4 -l4

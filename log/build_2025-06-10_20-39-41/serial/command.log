@@ -1,0 +1,1 @@
+Invoking command in '/home/erica/test_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/erica/test_ws/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/erica/test_ws/install/serial

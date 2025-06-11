@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.001674] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.002289] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.002764] (serial_com) JobQueued: {'identifier': 'serial_com', 'dependencies': OrderedDict([('serial', '/home/erica/test_ws/install/serial')])}
+[0.002962] (serial) JobStarted: {'identifier': 'serial'}
+[0.028698] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.051688] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.053850] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/erica/test_ws/src/serial-ros2', '-DCMAKE_INSTALL_PREFIX=/home/erica/test_ws/install/serial'], 'cwd': '/home/erica/test_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 55148 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica/test_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/test_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 55148 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.070673] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[0.074101] (teleop) Command: {'cmd': ['/usr/bin/cmake', '/home/erica/test_ws/src/teleop', '-DCMAKE_INSTALL_PREFIX=/home/erica/test_ws/install/teleop'], 'cwd': '/home/erica/test_ws/build/teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 55148 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica/test_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/test_ws/build/teleop'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 55148 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099172] (-) TimerEvent: {}
+[0.125435] (teleop) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199347] (-) TimerEvent: {}
+[0.300134] (-) TimerEvent: {}
+[0.314063] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400366] (-) TimerEvent: {}
+[0.501682] (-) TimerEvent: {}
+[0.585801] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.601848] (-) TimerEvent: {}
+[0.615245] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.702071] (-) TimerEvent: {}
+[0.741253] (teleop) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.802257] (-) TimerEvent: {}
+[0.903507] (-) TimerEvent: {}
+[0.916653] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.918080] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.929176] (teleop) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.942208] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.943177] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.944453] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.957532] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.958195] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.997341] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.003699] (-) TimerEvent: {}
+[1.054225] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.103945] (-) TimerEvent: {}
+[1.200347] (teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.204173] (-) TimerEvent: {}
+[1.207130] (teleop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.279577] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.304371] (-) TimerEvent: {}
+[1.305713] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.306756] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.308198] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.331794] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.404537] (-) TimerEvent: {}
+[1.505400] (-) TimerEvent: {}
+[1.606381] (-) TimerEvent: {}
+[1.707648] (-) TimerEvent: {}
+[1.808483] (-) TimerEvent: {}
+[1.909283] (-) TimerEvent: {}
+[2.010215] (-) TimerEvent: {}
+[2.013538] (teleop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.026588] (serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.110377] (-) TimerEvent: {}
+[2.211166] (-) TimerEvent: {}
+[2.236065] (teleop) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.311506] (-) TimerEvent: {}
+[2.412593] (-) TimerEvent: {}
+[2.500078] (teleop) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[2.500730] (teleop) StderrLine: {'line': b'  By not providing "Findackermann_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[2.501260] (teleop) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[2.501664] (teleop) StderrLine: {'line': b'  "ackermann_msgs", but CMake did not find one.\n'}
+[2.502036] (teleop) StderrLine: {'line': b'\n'}
+[2.502434] (teleop) StderrLine: {'line': b'  Could not find a package configuration file provided by "ackermann_msgs"\n'}
+[2.502993] (teleop) StderrLine: {'line': b'  with any of the following names:\n'}
+[2.503534] (teleop) StderrLine: {'line': b'\n'}
+[2.504025] (teleop) StderrLine: {'line': b'    ackermann_msgsConfig.cmake\n'}
+[2.504507] (teleop) StderrLine: {'line': b'    ackermann_msgs-config.cmake\n'}
+[2.504979] (teleop) StderrLine: {'line': b'\n'}
+[2.505835] (teleop) StderrLine: {'line': b'  Add the installation prefix of "ackermann_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[2.506995] (teleop) StderrLine: {'line': b'  "ackermann_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[2.508215] (teleop) StderrLine: {'line': b'  "ackermann_msgs" provides a separate development package or SDK, be sure it\n'}
+[2.508808] (teleop) StderrLine: {'line': b'  has been installed.\n'}
+[2.509923] (teleop) StderrLine: {'line': b'\n'}
+[2.510639] (teleop) StderrLine: {'line': b'\x1b[0m\n'}
+[2.511551] (teleop) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.512271] (teleop) StdoutLine: {'line': b'See also "/home/erica/test_ws/build/teleop/CMakeFiles/CMakeOutput.log".\n'}
+[2.513030] (-) TimerEvent: {}
+[2.526928] (teleop) CommandEnded: {'returncode': 1}
+[2.610714] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 1}
+[2.613143] (-) TimerEvent: {}
+[2.713796] (-) TimerEvent: {}
+[2.814598] (-) TimerEvent: {}
+[2.865984] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.891795] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[2.900704] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/erica/test_ws/build/serial\n'}
+[2.913674] (serial) JobEnded: {'identifier': 'serial', 'rc': 'SIGINT'}
+[2.915080] (-) TimerEvent: {}
+[2.926432] (serial_com) JobSkipped: {'identifier': 'serial_com'}
+[2.926756] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+/home/erica/test_ws/build/teleop/CMakeFiles/uninstall.dir
+/home/erica/test_ws/build/teleop/CMakeFiles/teleop_uninstall.dir
+/home/erica/test_ws/build/teleop/CMakeFiles/joy_interpreter.dir
+/home/erica/test_ws/build/teleop/CMakeFiles/test.dir
+/home/erica/test_ws/build/teleop/CMakeFiles/edit_cache.dir
+/home/erica/test_ws/build/teleop/CMakeFiles/rebuild_cache.dir
+/home/erica/test_ws/build/teleop/CMakeFiles/list_install_components.dir
+/home/erica/test_ws/build/teleop/CMakeFiles/install.dir
+/home/erica/test_ws/build/teleop/CMakeFiles/install/local.dir
+/home/erica/test_ws/build/teleop/CMakeFiles/install/strip.dir

@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.001858] (-) JobUnselected: {'identifier': 'serial_com'}
+[0.002457] (-) JobUnselected: {'identifier': 'teleop'}
+[0.002943] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.003139] (serial) JobStarted: {'identifier': 'serial'}
+[0.036188] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.039095] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.042354] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erica/test_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/erica/test_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 55148 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica/test_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/test_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 55148 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099251] (-) TimerEvent: {}
+[0.200133] (-) TimerEvent: {}
+[0.231505] (serial) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[0.234405] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[0.236762] (serial) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[0.300374] (-) TimerEvent: {}
+[0.401566] (-) TimerEvent: {}
+[0.502417] (-) TimerEvent: {}
+[0.603126] (-) TimerEvent: {}
+[0.704098] (-) TimerEvent: {}
+[0.805297] (-) TimerEvent: {}
+[0.906244] (-) TimerEvent: {}
+[1.007337] (-) TimerEvent: {}
+[1.108308] (-) TimerEvent: {}
+[1.209208] (-) TimerEvent: {}
+[1.310246] (-) TimerEvent: {}
+[1.412974] (-) TimerEvent: {}
+[1.515415] (-) TimerEvent: {}
+[1.618652] (-) TimerEvent: {}
+[1.721079] (-) TimerEvent: {}
+[1.823579] (-) TimerEvent: {}
+[1.926265] (-) TimerEvent: {}
+[2.028282] (-) TimerEvent: {}
+[2.130752] (-) TimerEvent: {}
+[2.233428] (-) TimerEvent: {}
+[2.335545] (-) TimerEvent: {}
+[2.437157] (-) TimerEvent: {}
+[2.539539] (-) TimerEvent: {}
+[2.641740] (-) TimerEvent: {}
+[2.743382] (-) TimerEvent: {}
+[2.844182] (-) TimerEvent: {}
+[2.944941] (-) TimerEvent: {}
+[3.052498] (-) TimerEvent: {}
+[3.053390] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[3.152716] (-) TimerEvent: {}
+[3.214903] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[3.251864] (serial) CommandEnded: {'returncode': 0}
+[3.252991] (-) TimerEvent: {}
+[3.254348] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[3.286235] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/erica/test_ws/build/serial'], 'cwd': '/home/erica/test_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 55148 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica/test_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/test_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 55148 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.317533] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.318356] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[3.319724] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[3.320982] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/lib/libserial.a\n'}
+[3.325708] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/include/serial/serial.h\n'}
+[3.326933] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/include/serial/v8stdint.h\n'}
+[3.328462] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[3.329939] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[3.331153] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[3.332237] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[3.333333] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/environment/path.sh\n'}
+[3.334387] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/environment/path.dsv\n'}
+[3.335462] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/local_setup.bash\n'}
+[3.336459] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/local_setup.sh\n'}
+[3.337500] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/local_setup.zsh\n'}
+[3.338570] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/local_setup.dsv\n'}
+[3.339561] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/package.dsv\n'}
+[3.340893] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[3.342249] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.343467] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.344633] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[3.345570] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[3.346634] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/test_ws/install/serial/share/serial/package.xml\n'}
+[3.352137] (serial) CommandEnded: {'returncode': 0}
+[3.353781] (-) TimerEvent: {}
+[3.428837] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[3.431646] (-) EventReactorShutdown: {}
