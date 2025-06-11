@@ -1,0 +1,76 @@
+[0.048s] Invoking command in '/home/erica/mercedes-brain/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/erica/mercedes-brain/src/teleop -DCMAKE_INSTALL_PREFIX=/home/erica/mercedes-brain/install/teleop
+[0.852s] -- The C compiler identification is GNU 11.4.0
+[1.602s] -- The CXX compiler identification is GNU 11.4.0
+[1.649s] -- Detecting C compiler ABI info
+[2.018s] -- Detecting C compiler ABI info - done
+[2.049s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.050s] -- Detecting C compile features
+[2.051s] -- Detecting C compile features - done
+[2.068s] -- Detecting CXX compiler ABI info
+[2.469s] -- Detecting CXX compiler ABI info - done
+[2.498s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.501s] -- Detecting CXX compile features
+[2.504s] -- Detecting CXX compile features - done
+[2.546s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.463s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.159s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.602s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.655s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.744s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.904s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.103s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.775s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.837s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.047s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.366s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.827s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.935s] -- Looking for pthread.h
+[8.311s] -- Looking for pthread.h - found
+[8.315s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.688s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.693s] -- Found Threads: TRUE  
+[9.108s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.354s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[9.464s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.029s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.029s] -- Configured cppcheck include dirs: 
+[10.030s] -- Configured cppcheck exclude dirs and/or files: 
+[10.034s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.043s] -- Added test 'lint_cmake' to check CMake code style
+[10.052s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.060s] -- Added test 'uncrustify' to check C / C++ code style
+[10.060s] -- Configured uncrustify additional arguments: 
+[10.065s] -- Added test 'xmllint' to check XML markup files
+[10.075s] -- Configuring done
+[10.141s] -- Generating done
+[10.160s] -- Build files have been written to: /home/erica/mercedes-brain/build/teleop
+[10.206s] Invoked command in '/home/erica/mercedes-brain/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/erica/mercedes-brain/src/teleop -DCMAKE_INSTALL_PREFIX=/home/erica/mercedes-brain/install/teleop
+[10.220s] Invoking command in '/home/erica/mercedes-brain/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/teleop -- -j4 -l4
+[10.457s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_interpreter.dir/src/joy_interpreter.cpp.o[0m
+[51.886s] [100%] [32m[1mLinking CXX executable joy_interpreter[0m
+[54.251s] [100%] Built target joy_interpreter
+[54.308s] Invoked command in '/home/erica/mercedes-brain/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/teleop -- -j4 -l4
+[54.310s] Invoking command in '/home/erica/mercedes-brain/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/teleop
+[54.342s] -- Install configuration: ""
+[54.343s] -- Installing: /home/erica/mercedes-brain/install/teleop/lib/teleop/joy_interpreter
+[54.372s] -- Set runtime path of "/home/erica/mercedes-brain/install/teleop/lib/teleop/joy_interpreter" to ""
+[54.373s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/launch
+[54.375s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/launch/launch.py
+[54.379s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/config
+[54.380s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/config/.gitkeep
+[54.385s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/ament_index/resource_index/package_run_dependencies/teleop
+[54.392s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/ament_index/resource_index/parent_prefix_path/teleop
+[54.393s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/ament_prefix_path.sh
+[54.398s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/ament_prefix_path.dsv
+[54.398s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/path.sh
+[54.401s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/environment/path.dsv
+[54.401s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.bash
+[54.405s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.sh
+[54.405s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.zsh
+[54.406s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/local_setup.dsv
+[54.407s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/package.dsv
+[54.410s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/ament_index/resource_index/packages/teleop
+[54.410s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/cmake/teleopConfig.cmake
+[54.410s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/cmake/teleopConfig-version.cmake
+[54.411s] -- Installing: /home/erica/mercedes-brain/install/teleop/share/teleop/package.xml
+[54.420s] Invoked command in '/home/erica/mercedes-brain/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/teleop

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/erica/test_ws/src/teleop/src/joy_interpreter.cpp" "CMakeFiles/joy_interpreter.dir/src/joy_interpreter.cpp.o" "gcc" "CMakeFiles/joy_interpreter.dir/src/joy_interpreter.cpp.o.d"
+  "/home/erica/mercedes-brain/src/teleop/src/joy_interpreter.cpp" "CMakeFiles/joy_interpreter.dir/src/joy_interpreter.cpp.o" "gcc" "CMakeFiles/joy_interpreter.dir/src/joy_interpreter.cpp.o.d"
   )
 
 # Targets to which this target links.

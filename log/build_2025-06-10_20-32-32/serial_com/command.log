@@ -1,2 +1,0 @@
-Invoking command in '/home/erica/test_ws/build/serial_com': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/erica/test_ws/src/serial_com -DCMAKE_INSTALL_PREFIX=/home/erica/test_ws/install/serial_com
-Invoked command in '/home/erica/test_ws/build/serial_com' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/erica/test_ws/src/serial_com -DCMAKE_INSTALL_PREFIX=/home/erica/test_ws/install/serial_com

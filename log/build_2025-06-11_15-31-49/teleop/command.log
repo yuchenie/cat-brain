@@ -1,0 +1,6 @@
+Invoking command in '/home/erica/mercedes-brain/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/erica/mercedes-brain/src/teleop -DCMAKE_INSTALL_PREFIX=/home/erica/mercedes-brain/install/teleop
+Invoked command in '/home/erica/mercedes-brain/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/erica/mercedes-brain/src/teleop -DCMAKE_INSTALL_PREFIX=/home/erica/mercedes-brain/install/teleop
+Invoking command in '/home/erica/mercedes-brain/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/teleop -- -j4 -l4
+Invoked command in '/home/erica/mercedes-brain/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/teleop -- -j4 -l4
+Invoking command in '/home/erica/mercedes-brain/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/teleop
+Invoked command in '/home/erica/mercedes-brain/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/teleop

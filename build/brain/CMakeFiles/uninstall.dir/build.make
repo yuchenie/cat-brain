@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erica/test_ws/src/brain
+CMAKE_SOURCE_DIR = /home/erica/mercedes-brain/src/brain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erica/test_ws/build/brain
+CMAKE_BINARY_DIR = /home/erica/mercedes-brain/build/brain
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/erica/test_ws/build/brain && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erica/test_ws/src/brain /home/erica/test_ws/src/brain /home/erica/test_ws/build/brain /home/erica/test_ws/build/brain /home/erica/test_ws/build/brain/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/erica/mercedes-brain/build/brain && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erica/mercedes-brain/src/brain /home/erica/mercedes-brain/src/brain /home/erica/mercedes-brain/build/brain /home/erica/mercedes-brain/build/brain /home/erica/mercedes-brain/build/brain/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

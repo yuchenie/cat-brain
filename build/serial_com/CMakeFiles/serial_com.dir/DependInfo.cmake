@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/erica/test_ws/src/serial_com/src/serial_com.cpp" "CMakeFiles/serial_com.dir/src/serial_com.cpp.o" "gcc" "CMakeFiles/serial_com.dir/src/serial_com.cpp.o.d"
+  "/home/erica/mercedes-brain/src/serial_com/src/serial_com.cpp" "CMakeFiles/serial_com.dir/src/serial_com.cpp.o" "gcc" "CMakeFiles/serial_com.dir/src/serial_com.cpp.o.d"
   )
 
 # Targets to which this target links.

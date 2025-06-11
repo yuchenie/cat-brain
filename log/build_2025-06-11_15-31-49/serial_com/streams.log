@@ -1,0 +1,76 @@
+[0.050s] Invoking command in '/home/erica/mercedes-brain/build/serial_com': CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/test_ws/install/brain:/home/erica/test_ws/install/teleop:/home/erica/test_ws/install/serial_com:/home/erica/test_ws/install/serial:/opt/ros/humble /usr/bin/cmake /home/erica/mercedes-brain/src/serial_com -DCMAKE_INSTALL_PREFIX=/home/erica/mercedes-brain/install/serial_com
+[0.323s] -- The C compiler identification is GNU 11.4.0
+[0.584s] -- The CXX compiler identification is GNU 11.4.0
+[0.616s] -- Detecting C compiler ABI info
+[0.980s] -- Detecting C compiler ABI info - done
+[1.009s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.011s] -- Detecting C compile features
+[1.014s] -- Detecting C compile features - done
+[1.031s] -- Detecting CXX compiler ABI info
+[1.461s] -- Detecting CXX compiler ABI info - done
+[1.494s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.496s] -- Detecting CXX compile features
+[1.499s] -- Detecting CXX compile features - done
+[1.527s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.372s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.950s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.296s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.341s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.401s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.907s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.931s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.471s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.699s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.061s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.144s] -- Looking for pthread.h
+[5.564s] -- Looking for pthread.h - found
+[5.568s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.942s] -- Found Threads: TRUE  
+[6.248s] -- Found serial: 1.2.1 (/home/erica/mercedes-brain/install/serial/share/serial/cmake)
+[6.272s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[6.360s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.903s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.904s] -- Configured cppcheck include dirs: 
+[6.905s] -- Configured cppcheck exclude dirs and/or files: 
+[6.908s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.913s] -- Added test 'lint_cmake' to check CMake code style
+[6.918s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.926s] -- Added test 'uncrustify' to check C / C++ code style
+[6.927s] -- Configured uncrustify additional arguments: 
+[6.931s] -- Added test 'xmllint' to check XML markup files
+[6.949s] -- Configuring done
+[7.029s] -- Generating done
+[7.050s] -- Build files have been written to: /home/erica/mercedes-brain/build/serial_com
+[7.109s] Invoked command in '/home/erica/mercedes-brain/build/serial_com' returned '0': CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/test_ws/install/brain:/home/erica/test_ws/install/teleop:/home/erica/test_ws/install/serial_com:/home/erica/test_ws/install/serial:/opt/ros/humble /usr/bin/cmake /home/erica/mercedes-brain/src/serial_com -DCMAKE_INSTALL_PREFIX=/home/erica/mercedes-brain/install/serial_com
+[7.111s] Invoking command in '/home/erica/mercedes-brain/build/serial_com': CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/test_ws/install/brain:/home/erica/test_ws/install/teleop:/home/erica/test_ws/install/serial_com:/home/erica/test_ws/install/serial:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/serial_com -- -j4 -l4
+[7.339s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_com.dir/src/serial_com.cpp.o[0m
+[51.975s] [100%] [32m[1mLinking CXX executable serial_com[0m
+[53.923s] [100%] Built target serial_com
+[54.876s] Invoked command in '/home/erica/mercedes-brain/build/serial_com' returned '0': CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/test_ws/install/brain:/home/erica/test_ws/install/teleop:/home/erica/test_ws/install/serial_com:/home/erica/test_ws/install/serial:/opt/ros/humble /usr/bin/cmake --build /home/erica/mercedes-brain/build/serial_com -- -j4 -l4
+[54.885s] Invoking command in '/home/erica/mercedes-brain/build/serial_com': CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/test_ws/install/brain:/home/erica/test_ws/install/teleop:/home/erica/test_ws/install/serial_com:/home/erica/test_ws/install/serial:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/serial_com
+[54.911s] -- Install configuration: ""
+[54.912s] -- Installing: /home/erica/mercedes-brain/install/serial_com/lib/serial_com/serial_com
+[54.941s] -- Set runtime path of "/home/erica/mercedes-brain/install/serial_com/lib/serial_com/serial_com" to ""
+[54.941s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/launch
+[54.942s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/launch/launch.py
+[54.943s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/config
+[54.943s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/config/.gitkeep
+[54.945s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/ament_index/resource_index/package_run_dependencies/serial_com
+[54.946s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/ament_index/resource_index/parent_prefix_path/serial_com
+[54.948s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/environment/ament_prefix_path.sh
+[54.949s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/environment/ament_prefix_path.dsv
+[54.950s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/environment/path.sh
+[54.951s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/environment/path.dsv
+[54.952s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/local_setup.bash
+[54.953s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/local_setup.sh
+[54.954s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/local_setup.zsh
+[54.955s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/local_setup.dsv
+[54.956s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/package.dsv
+[54.958s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/ament_index/resource_index/packages/serial_com
+[54.959s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/cmake/serial_comConfig.cmake
+[54.960s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/cmake/serial_comConfig-version.cmake
+[54.961s] -- Installing: /home/erica/mercedes-brain/install/serial_com/share/serial_com/package.xml
+[54.969s] Invoked command in '/home/erica/mercedes-brain/build/serial_com' returned '0': CMAKE_PREFIX_PATH=/home/erica/mercedes-brain/install/serial:/home/erica/mercedes-brain/install/brain:/home/erica/mercedes-brain/install/teleop:/home/erica/mercedes-brain/install/serial_com:/home/erica/test_ws/install/brain:/home/erica/test_ws/install/teleop:/home/erica/test_ws/install/serial_com:/home/erica/test_ws/install/serial:/opt/ros/humble /usr/bin/cmake --install /home/erica/mercedes-brain/build/serial_com

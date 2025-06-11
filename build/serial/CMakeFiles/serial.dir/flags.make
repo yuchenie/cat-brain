@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/erica/test_ws/src/serial-ros2/include
+CXX_INCLUDES = -I/home/erica/mercedes-brain/src/serial-ros2/include
 
 CXX_FLAGS = 
 
