@@ -1,0 +1,33 @@
+[0.059s] Invoking command in '/home/erica/cat-brain/build/brain': AMENT_PREFIX_PATH=/home/erica/cat-brain/install/gpio:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial:/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/opt/ros/humble /usr/bin/cmake --build /home/erica/cat-brain/build/brain -- -j4 -l4
+[0.147s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.701s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.995s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.997s] -- Added test 'lint_cmake' to check CMake code style
+[0.999s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.004s] -- Added test 'xmllint' to check XML markup files
+[1.008s] -- Configuring done
+[1.030s] -- Generating done
+[1.041s] -- Build files have been written to: /home/erica/cat-brain/build/brain
+[1.117s] Invoked command in '/home/erica/cat-brain/build/brain' returned '0': AMENT_PREFIX_PATH=/home/erica/cat-brain/install/gpio:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial:/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/opt/ros/humble /usr/bin/cmake --build /home/erica/cat-brain/build/brain -- -j4 -l4
+[1.124s] Invoking command in '/home/erica/cat-brain/build/brain': AMENT_PREFIX_PATH=/home/erica/cat-brain/install/gpio:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial:/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/opt/ros/humble /usr/bin/cmake --install /home/erica/cat-brain/build/brain
+[1.150s] -- Install configuration: ""
+[1.151s] -- Up-to-date: /home/erica/cat-brain/install/brain/share/brain/launch
+[1.151s] -- Installing: /home/erica/cat-brain/install/brain/share/brain/launch/launch.py
+[1.152s] -- Up-to-date: /home/erica/cat-brain/install/brain/share/brain/config
+[1.152s] -- Up-to-date: /home/erica/cat-brain/install/brain/share/brain/config/.gitkeep
+[1.153s] -- Installing: /home/erica/cat-brain/install/brain/share/ament_index/resource_index/package_run_dependencies/brain
+[1.154s] -- Installing: /home/erica/cat-brain/install/brain/share/ament_index/resource_index/parent_prefix_path/brain
+[1.156s] -- Up-to-date: /home/erica/cat-brain/install/brain/share/brain/environment/ament_prefix_path.sh
+[1.156s] -- Installing: /home/erica/cat-brain/install/brain/share/brain/environment/ament_prefix_path.dsv
+[1.157s] -- Up-to-date: /home/erica/cat-brain/install/brain/share/brain/environment/path.sh
+[1.158s] -- Installing: /home/erica/cat-brain/install/brain/share/brain/environment/path.dsv
+[1.159s] -- Up-to-date: /home/erica/cat-brain/install/brain/share/brain/local_setup.bash
+[1.160s] -- Up-to-date: /home/erica/cat-brain/install/brain/share/brain/local_setup.sh
+[1.160s] -- Up-to-date: /home/erica/cat-brain/install/brain/share/brain/local_setup.zsh
+[1.160s] -- Installing: /home/erica/cat-brain/install/brain/share/brain/local_setup.dsv
+[1.161s] -- Installing: /home/erica/cat-brain/install/brain/share/brain/package.dsv
+[1.163s] -- Up-to-date: /home/erica/cat-brain/install/brain/share/ament_index/resource_index/packages/brain
+[1.163s] -- Up-to-date: /home/erica/cat-brain/install/brain/share/brain/cmake/brainConfig.cmake
+[1.163s] -- Up-to-date: /home/erica/cat-brain/install/brain/share/brain/cmake/brainConfig-version.cmake
+[1.164s] -- Installing: /home/erica/cat-brain/install/brain/share/brain/package.xml
+[1.171s] Invoked command in '/home/erica/cat-brain/build/brain' returned '0': AMENT_PREFIX_PATH=/home/erica/cat-brain/install/gpio:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial:/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/opt/ros/humble /usr/bin/cmake --install /home/erica/cat-brain/build/brain

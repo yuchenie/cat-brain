@@ -1,0 +1,11 @@
+[01m[K/home/erica/cat-brain/src/gpio/src/gpio_node.cpp:31:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   31 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/erica/cat-brain/src/gpio/src/gpio_node.cpp:[m[K In constructor ‘[01m[KGPIONode::GPIONode()[m[K’:
+[01m[K/home/erica/cat-brain/src/gpio/src/gpio_node.cpp:20:85:[m[K [01;31m[Kerror: [m[K‘[01m[KSerialNode[m[K’ has not been declared
+   20 |         timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&[01;31m[KSerialNode[m[K::timer_callback, this));
+      |                                                                                     [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gpio_node.dir/build.make:76: CMakeFiles/gpio_node.dir/src/gpio_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gpio_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+/home/erica/cat-brain/build/gpio/CMakeFiles/uninstall.dir
+/home/erica/cat-brain/build/gpio/CMakeFiles/gpio_uninstall.dir
+/home/erica/cat-brain/build/gpio/CMakeFiles/gpio_node.dir
+/home/erica/cat-brain/build/gpio/CMakeFiles/test.dir
+/home/erica/cat-brain/build/gpio/CMakeFiles/edit_cache.dir
+/home/erica/cat-brain/build/gpio/CMakeFiles/rebuild_cache.dir
+/home/erica/cat-brain/build/gpio/CMakeFiles/list_install_components.dir
+/home/erica/cat-brain/build/gpio/CMakeFiles/install.dir
+/home/erica/cat-brain/build/gpio/CMakeFiles/install/local.dir
+/home/erica/cat-brain/build/gpio/CMakeFiles/install/strip.dir

@@ -1,0 +1,27 @@
+[0.083s] Invoking command in '/home/erica/cat-brain/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/cat-brain/build/teleop -- -j4 -l4
+[0.488s] [35m[1mConsolidate compiler generated dependencies of target joy_interpreter[0m
+[0.652s] [100%] Built target joy_interpreter
+[0.896s] Invoked command in '/home/erica/cat-brain/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/cat-brain/build/teleop -- -j4 -l4
+[0.911s] Invoking command in '/home/erica/cat-brain/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/cat-brain/build/teleop
+[0.944s] -- Install configuration: ""
+[0.946s] -- Up-to-date: /home/erica/cat-brain/install/teleop/lib/teleop/joy_interpreter
+[0.948s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/launch
+[0.952s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/launch/launch.py
+[0.953s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/config
+[0.954s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/config/.gitkeep
+[0.955s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/ament_index/resource_index/package_run_dependencies/teleop
+[0.957s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/ament_index/resource_index/parent_prefix_path/teleop
+[0.958s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/environment/ament_prefix_path.sh
+[0.959s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/environment/ament_prefix_path.dsv
+[0.960s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/environment/path.sh
+[0.961s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/environment/path.dsv
+[0.965s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/local_setup.bash
+[0.969s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/local_setup.sh
+[0.970s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/local_setup.zsh
+[0.971s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/local_setup.dsv
+[0.971s] -- Installing: /home/erica/cat-brain/install/teleop/share/teleop/package.dsv
+[0.972s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/ament_index/resource_index/packages/teleop
+[0.972s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/cmake/teleopConfig.cmake
+[0.973s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/cmake/teleopConfig-version.cmake
+[0.973s] -- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/package.xml
+[0.974s] Invoked command in '/home/erica/cat-brain/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/cat-brain/build/teleop

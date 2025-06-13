@@ -1,8 +1,8 @@
-# Install script for directory: /home/erica/mercedes-brain/src/serial_com
+# Install script for directory: /home/erica/cat-brain/src/serial_com
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/erica/mercedes-brain/install/serial_com")
+  set(CMAKE_INSTALL_PREFIX "/home/erica/cat-brain/install/serial_com")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/serial_com/serial_com"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/serial_com" TYPE EXECUTABLE FILES "/home/erica/mercedes-brain/build/serial_com/serial_com")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/serial_com" TYPE EXECUTABLE FILES "/home/erica/cat-brain/build/serial_com/serial_com")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/serial_com/serial_com" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/serial_com/serial_com")
     file(RPATH_CHANGE
@@ -63,19 +63,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com/launch" TYPE DIRECTORY FILES "/home/erica/mercedes-brain/src/serial_com/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com/launch" TYPE DIRECTORY FILES "/home/erica/cat-brain/src/serial_com/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com/config" TYPE DIRECTORY FILES "/home/erica/mercedes-brain/src/serial_com/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com/config" TYPE DIRECTORY FILES "/home/erica/cat-brain/src/serial_com/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/erica/mercedes-brain/build/serial_com/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/serial_com")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/erica/cat-brain/build/serial_com/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/serial_com")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/erica/mercedes-brain/build/serial_com/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/serial_com")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/erica/cat-brain/build/serial_com/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/serial_com")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -83,7 +83,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com/environment" TYPE FILE FILES "/home/erica/mercedes-brain/build/serial_com/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com/environment" TYPE FILE FILES "/home/erica/cat-brain/build/serial_com/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -91,42 +91,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com/environment" TYPE FILE FILES "/home/erica/mercedes-brain/build/serial_com/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com/environment" TYPE FILE FILES "/home/erica/cat-brain/build/serial_com/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com" TYPE FILE FILES "/home/erica/mercedes-brain/build/serial_com/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com" TYPE FILE FILES "/home/erica/cat-brain/build/serial_com/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com" TYPE FILE FILES "/home/erica/mercedes-brain/build/serial_com/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com" TYPE FILE FILES "/home/erica/cat-brain/build/serial_com/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com" TYPE FILE FILES "/home/erica/mercedes-brain/build/serial_com/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com" TYPE FILE FILES "/home/erica/cat-brain/build/serial_com/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com" TYPE FILE FILES "/home/erica/mercedes-brain/build/serial_com/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com" TYPE FILE FILES "/home/erica/cat-brain/build/serial_com/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com" TYPE FILE FILES "/home/erica/mercedes-brain/build/serial_com/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com" TYPE FILE FILES "/home/erica/cat-brain/build/serial_com/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/erica/mercedes-brain/build/serial_com/ament_cmake_index/share/ament_index/resource_index/packages/serial_com")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/erica/cat-brain/build/serial_com/ament_cmake_index/share/ament_index/resource_index/packages/serial_com")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com/cmake" TYPE FILE FILES
-    "/home/erica/mercedes-brain/build/serial_com/ament_cmake_core/serial_comConfig.cmake"
-    "/home/erica/mercedes-brain/build/serial_com/ament_cmake_core/serial_comConfig-version.cmake"
+    "/home/erica/cat-brain/build/serial_com/ament_cmake_core/serial_comConfig.cmake"
+    "/home/erica/cat-brain/build/serial_com/ament_cmake_core/serial_comConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com" TYPE FILE FILES "/home/erica/mercedes-brain/src/serial_com/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_com" TYPE FILE FILES "/home/erica/cat-brain/src/serial_com/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -137,5 +137,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/erica/mercedes-brain/build/serial_com/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/erica/cat-brain/build/serial_com/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

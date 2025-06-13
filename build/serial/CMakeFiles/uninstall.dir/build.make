@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erica/mercedes-brain/src/serial-ros2
+CMAKE_SOURCE_DIR = /home/erica/cat-brain/src/serial-ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erica/mercedes-brain/build/serial
+CMAKE_BINARY_DIR = /home/erica/cat-brain/build/serial
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/erica/mercedes-brain/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erica/mercedes-brain/src/serial-ros2 /home/erica/mercedes-brain/src/serial-ros2 /home/erica/mercedes-brain/build/serial /home/erica/mercedes-brain/build/serial /home/erica/mercedes-brain/build/serial/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/erica/cat-brain/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erica/cat-brain/src/serial-ros2 /home/erica/cat-brain/src/serial-ros2 /home/erica/cat-brain/build/serial /home/erica/cat-brain/build/serial /home/erica/cat-brain/build/serial/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

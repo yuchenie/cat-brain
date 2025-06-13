@@ -1,0 +1,26 @@
+[0.176s] Invoking command in '/home/erica/cat-brain/build/serial_com': CMAKE_PREFIX_PATH=/home/erica/cat-brain/install/serial:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/opt/ros/humble /usr/bin/cmake --build /home/erica/cat-brain/build/serial_com -- -j4 -l4
+[0.401s] [100%] Built target serial_com
+[0.438s] Invoked command in '/home/erica/cat-brain/build/serial_com' returned '0': CMAKE_PREFIX_PATH=/home/erica/cat-brain/install/serial:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/opt/ros/humble /usr/bin/cmake --build /home/erica/cat-brain/build/serial_com -- -j4 -l4
+[0.448s] Invoking command in '/home/erica/cat-brain/build/serial_com': CMAKE_PREFIX_PATH=/home/erica/cat-brain/install/serial:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/opt/ros/humble /usr/bin/cmake --install /home/erica/cat-brain/build/serial_com
+[0.475s] -- Install configuration: ""
+[0.476s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/lib/serial_com/serial_com
+[0.478s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/launch
+[0.478s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/launch/launch.py
+[0.479s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/config
+[0.479s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/config/.gitkeep
+[0.480s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/ament_index/resource_index/package_run_dependencies/serial_com
+[0.480s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/ament_index/resource_index/parent_prefix_path/serial_com
+[0.480s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/environment/ament_prefix_path.sh
+[0.481s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/environment/ament_prefix_path.dsv
+[0.481s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/environment/path.sh
+[0.482s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/environment/path.dsv
+[0.482s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/local_setup.bash
+[0.483s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/local_setup.sh
+[0.483s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/local_setup.zsh
+[0.484s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/local_setup.dsv
+[0.484s] -- Installing: /home/erica/cat-brain/install/serial_com/share/serial_com/package.dsv
+[0.485s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/ament_index/resource_index/packages/serial_com
+[0.485s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/cmake/serial_comConfig.cmake
+[0.486s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/cmake/serial_comConfig-version.cmake
+[0.486s] -- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/package.xml
+[0.493s] Invoked command in '/home/erica/cat-brain/build/serial_com' returned '0': CMAKE_PREFIX_PATH=/home/erica/cat-brain/install/serial:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/opt/ros/humble /usr/bin/cmake --install /home/erica/cat-brain/build/serial_com

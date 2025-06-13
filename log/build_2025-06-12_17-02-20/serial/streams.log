@@ -1,0 +1,51 @@
+[0.046s] Invoking command in '/home/erica/cat-brain/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/erica/cat-brain/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/erica/cat-brain/install/serial
+[0.867s] -- The C compiler identification is GNU 11.4.0
+[1.568s] -- The CXX compiler identification is GNU 11.4.0
+[1.604s] -- Detecting C compiler ABI info
+[1.946s] -- Detecting C compiler ABI info - done
+[1.972s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.974s] -- Detecting C compile features
+[1.976s] -- Detecting C compile features - done
+[1.988s] -- Detecting CXX compiler ABI info
+[2.342s] -- Detecting CXX compiler ABI info - done
+[2.371s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.372s] -- Detecting CXX compile features
+[2.374s] -- Detecting CXX compile features - done
+[2.405s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.104s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.899s] -- Configuring done
+[3.924s] -- Generating done
+[3.955s] -- Build files have been written to: /home/erica/cat-brain/build/serial
+[3.971s] Invoked command in '/home/erica/cat-brain/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/erica/cat-brain/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/erica/cat-brain/install/serial
+[3.980s] Invoking command in '/home/erica/cat-brain/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/cat-brain/build/serial -- -j4 -l4
+[4.169s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[4.171s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[4.173s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[7.004s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[7.168s] [100%] Built target serial
+[7.206s] Invoked command in '/home/erica/cat-brain/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/cat-brain/build/serial -- -j4 -l4
+[7.246s] Invoking command in '/home/erica/cat-brain/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/cat-brain/build/serial
+[7.272s] -- Install configuration: ""
+[7.273s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/environment/library_path.sh
+[7.274s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/environment/library_path.dsv
+[7.275s] -- Installing: /home/erica/cat-brain/install/serial/lib/libserial.a
+[7.280s] -- Installing: /home/erica/cat-brain/install/serial/include/serial/serial.h
+[7.281s] -- Installing: /home/erica/cat-brain/install/serial/include/serial/v8stdint.h
+[7.282s] -- Installing: /home/erica/cat-brain/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[7.284s] -- Installing: /home/erica/cat-brain/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[7.285s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/environment/ament_prefix_path.sh
+[7.286s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/environment/ament_prefix_path.dsv
+[7.287s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/environment/path.sh
+[7.288s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/environment/path.dsv
+[7.289s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/local_setup.bash
+[7.290s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/local_setup.sh
+[7.291s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/local_setup.zsh
+[7.292s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/local_setup.dsv
+[7.293s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/package.dsv
+[7.294s] -- Installing: /home/erica/cat-brain/install/serial/share/ament_index/resource_index/packages/serial
+[7.296s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.297s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[7.298s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/cmake/serialConfig.cmake
+[7.299s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/cmake/serialConfig-version.cmake
+[7.300s] -- Installing: /home/erica/cat-brain/install/serial/share/serial/package.xml
+[7.306s] Invoked command in '/home/erica/cat-brain/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/cat-brain/build/serial

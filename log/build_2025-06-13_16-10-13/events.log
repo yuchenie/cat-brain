@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.001770] (gpio) JobQueued: {'identifier': 'gpio', 'dependencies': OrderedDict()}
+[0.002356] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.002819] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.003009] (serial_com) JobQueued: {'identifier': 'serial_com', 'dependencies': OrderedDict([('serial', '/home/erica/cat-brain/install/serial')])}
+[0.003296] (brain) JobQueued: {'identifier': 'brain', 'dependencies': OrderedDict([('gpio', '/home/erica/cat-brain/install/gpio'), ('serial', '/home/erica/cat-brain/install/serial'), ('teleop', '/home/erica/cat-brain/install/teleop'), ('serial_com', '/home/erica/cat-brain/install/serial_com')])}
+[0.003473] (serial) JobStarted: {'identifier': 'serial'}
+[0.031078] (gpio) JobStarted: {'identifier': 'gpio'}
+[0.051602] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.077722] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.080455] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.082963] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erica/cat-brain/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/erica/cat-brain/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 29799 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/cat-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/cat-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/cat-brain/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 29799 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble')]), 'shell': False}
+[0.095787] (gpio) JobProgress: {'identifier': 'gpio', 'progress': 'cmake'}
+[0.098804] (gpio) JobProgress: {'identifier': 'gpio', 'progress': 'build'}
+[0.099043] (-) TimerEvent: {}
+[0.103117] (gpio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erica/cat-brain/build/gpio', '--', '-j4', '-l4'], 'cwd': '/home/erica/cat-brain/build/gpio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 29799 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/cat-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/cat-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/cat-brain/build/gpio'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 29799 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble')]), 'shell': False}
+[0.122274] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[0.127472] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'build'}
+[0.129428] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erica/cat-brain/build/teleop', '--', '-j4', '-l4'], 'cwd': '/home/erica/cat-brain/build/teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 29799 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/cat-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/cat-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/cat-brain/build/teleop'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 29799 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble')]), 'shell': False}
+[0.199595] (-) TimerEvent: {}
+[0.291735] (gpio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gpio_node\x1b[0m\n'}
+[0.299837] (-) TimerEvent: {}
+[0.310001] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[0.353150] (serial) CommandEnded: {'returncode': 0}
+[0.355285] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[0.393315] (gpio) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gpio_node.dir/src/gpio_node.cpp.o\x1b[0m\n'}
+[0.394522] (teleop) StdoutLine: {'line': b'[100%] Built target joy_interpreter\n'}
+[0.400694] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/erica/cat-brain/build/serial'], 'cwd': '/home/erica/cat-brain/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 29799 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/cat-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/cat-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/cat-brain/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 29799 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble')]), 'shell': False}
+[0.402367] (-) TimerEvent: {}
+[0.433338] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.434054] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/environment/library_path.sh\n'}
+[0.434587] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/environment/library_path.dsv\n'}
+[0.435086] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/lib/libserial.a\n'}
+[0.435644] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/include/serial/serial.h\n'}
+[0.436120] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/include/serial/v8stdint.h\n'}
+[0.437478] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[0.438125] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[0.438939] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[0.439423] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[0.439886] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/environment/path.sh\n'}
+[0.440332] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/environment/path.dsv\n'}
+[0.441135] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/local_setup.bash\n'}
+[0.442847] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/local_setup.sh\n'}
+[0.444473] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/local_setup.zsh\n'}
+[0.455123] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/local_setup.dsv\n'}
+[0.461279] (serial) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/serial/share/serial/package.dsv\n'}
+[0.466296] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[0.472738] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.473490] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.473990] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[0.474649] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[0.475111] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial/share/serial/package.xml\n'}
+[0.475853] (teleop) CommandEnded: {'returncode': 0}
+[0.479978] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'install'}
+[0.480190] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/erica/cat-brain/build/teleop'], 'cwd': '/home/erica/cat-brain/build/teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 29799 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/cat-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/cat-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/cat-brain/build/teleop'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 29799 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble')]), 'shell': False}
+[0.482257] (serial) CommandEnded: {'returncode': 0}
+[0.483921] (teleop) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.484414] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/lib/teleop/joy_interpreter\n'}
+[0.485305] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/launch\n'}
+[0.486313] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/launch/launch.py\n'}
+[0.487418] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/config\n'}
+[0.488339] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/config/.gitkeep\n'}
+[0.489520] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/ament_index/resource_index/package_run_dependencies/teleop\n'}
+[0.490395] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/ament_index/resource_index/parent_prefix_path/teleop\n'}
+[0.491582] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/environment/ament_prefix_path.sh\n'}
+[0.492634] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/environment/ament_prefix_path.dsv\n'}
+[0.493554] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/environment/path.sh\n'}
+[0.494693] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/environment/path.dsv\n'}
+[0.497467] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/local_setup.bash\n'}
+[0.497878] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/local_setup.sh\n'}
+[0.498299] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/local_setup.zsh\n'}
+[0.498605] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/local_setup.dsv\n'}
+[0.498897] (teleop) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/teleop/share/teleop/package.dsv\n'}
+[0.499192] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/ament_index/resource_index/packages/teleop\n'}
+[0.499487] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/cmake/teleopConfig.cmake\n'}
+[0.499779] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/cmake/teleopConfig-version.cmake\n'}
+[0.500081] (teleop) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/teleop/share/teleop/package.xml\n'}
+[0.502821] (-) TimerEvent: {}
+[0.565139] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[0.573025] (serial_com) JobStarted: {'identifier': 'serial_com'}
+[0.590277] (teleop) CommandEnded: {'returncode': 0}
+[0.603209] (-) TimerEvent: {}
+[0.655019] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 0}
+[0.659701] (serial_com) JobProgress: {'identifier': 'serial_com', 'progress': 'cmake'}
+[0.662387] (serial_com) JobProgress: {'identifier': 'serial_com', 'progress': 'build'}
+[0.665720] (serial_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erica/cat-brain/build/serial_com', '--', '-j4', '-l4'], 'cwd': '/home/erica/cat-brain/build/serial_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 29799 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/cat-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/cat-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/cat-brain/build/serial_com'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 29799 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/cat-brain/install/serial:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/opt/ros/humble')]), 'shell': False}
+[0.703398] (-) TimerEvent: {}
+[0.804982] (-) TimerEvent: {}
+[0.889533] (serial_com) StdoutLine: {'line': b'[100%] Built target serial_com\n'}
+[0.905159] (-) TimerEvent: {}
+[0.927187] (serial_com) CommandEnded: {'returncode': 0}
+[0.929813] (serial_com) JobProgress: {'identifier': 'serial_com', 'progress': 'install'}
+[0.933164] (serial_com) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/erica/cat-brain/build/serial_com'], 'cwd': '/home/erica/cat-brain/build/serial_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 29799 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/cat-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/cat-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/cat-brain/build/serial_com'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 29799 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/cat-brain/install/serial:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/opt/ros/humble')]), 'shell': False}
+[0.961612] (serial_com) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.962923] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/lib/serial_com/serial_com\n'}
+[0.964197] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/launch\n'}
+[0.965228] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/launch/launch.py\n'}
+[0.966352] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/config\n'}
+[0.967236] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/config/.gitkeep\n'}
+[0.968459] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/ament_index/resource_index/package_run_dependencies/serial_com\n'}
+[0.969509] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/ament_index/resource_index/parent_prefix_path/serial_com\n'}
+[0.970249] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/environment/ament_prefix_path.sh\n'}
+[0.970640] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/environment/ament_prefix_path.dsv\n'}
+[0.971309] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/environment/path.sh\n'}
+[0.972040] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/environment/path.dsv\n'}
+[0.972648] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/local_setup.bash\n'}
+[0.973363] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/local_setup.sh\n'}
+[0.973981] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/local_setup.zsh\n'}
+[0.974799] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/local_setup.dsv\n'}
+[0.975911] (serial_com) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/serial_com/share/serial_com/package.dsv\n'}
+[0.986686] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/ament_index/resource_index/packages/serial_com\n'}
+[0.987376] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/cmake/serial_comConfig.cmake\n'}
+[0.988497] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/cmake/serial_comConfig-version.cmake\n'}
+[0.989132] (serial_com) StdoutLine: {'line': b'-- Up-to-date: /home/erica/cat-brain/install/serial_com/share/serial_com/package.xml\n'}
+[0.989508] (serial_com) CommandEnded: {'returncode': 0}
+[1.005875] (-) TimerEvent: {}
+[1.045724] (serial_com) JobEnded: {'identifier': 'serial_com', 'rc': 0}
+[1.106065] (-) TimerEvent: {}
+[1.206766] (-) TimerEvent: {}
+[1.307570] (-) TimerEvent: {}
+[1.408294] (-) TimerEvent: {}
+[1.509048] (-) TimerEvent: {}
+[1.609766] (-) TimerEvent: {}
+[1.710495] (-) TimerEvent: {}
+[1.811233] (-) TimerEvent: {}
+[1.911946] (-) TimerEvent: {}
+[2.012708] (-) TimerEvent: {}
+[2.113594] (-) TimerEvent: {}
+[2.214429] (-) TimerEvent: {}
+[2.315166] (-) TimerEvent: {}
+[2.416066] (-) TimerEvent: {}
+[2.516875] (-) TimerEvent: {}
+[2.617642] (-) TimerEvent: {}
+[2.718449] (-) TimerEvent: {}
+[2.819202] (-) TimerEvent: {}
+[2.919996] (-) TimerEvent: {}
+[3.020834] (-) TimerEvent: {}
+[3.121705] (-) TimerEvent: {}
+[3.222566] (-) TimerEvent: {}
+[3.323331] (-) TimerEvent: {}
+[3.424095] (-) TimerEvent: {}
+[3.524908] (-) TimerEvent: {}
+[3.625757] (-) TimerEvent: {}
+[3.726555] (-) TimerEvent: {}
+[3.827346] (-) TimerEvent: {}
+[3.928144] (-) TimerEvent: {}
+[4.029262] (-) TimerEvent: {}
+[4.130070] (-) TimerEvent: {}
+[4.230882] (-) TimerEvent: {}
+[4.331644] (-) TimerEvent: {}
+[4.432554] (-) TimerEvent: {}
+[4.533377] (-) TimerEvent: {}
+[4.634241] (-) TimerEvent: {}
+[4.735129] (-) TimerEvent: {}
+[4.835922] (-) TimerEvent: {}
+[4.936725] (-) TimerEvent: {}
+[5.037565] (-) TimerEvent: {}
+[5.138406] (-) TimerEvent: {}
+[5.239214] (-) TimerEvent: {}
+[5.340289] (-) TimerEvent: {}
+[5.441112] (-) TimerEvent: {}
+[5.541889] (-) TimerEvent: {}
+[5.642687] (-) TimerEvent: {}
+[5.743546] (-) TimerEvent: {}
+[5.844313] (-) TimerEvent: {}
+[5.945127] (-) TimerEvent: {}
+[6.045945] (-) TimerEvent: {}
+[6.146727] (-) TimerEvent: {}
+[6.247506] (-) TimerEvent: {}
+[6.348291] (-) TimerEvent: {}
+[6.449151] (-) TimerEvent: {}
+[6.549934] (-) TimerEvent: {}
+[6.650781] (-) TimerEvent: {}
+[6.751597] (-) TimerEvent: {}
+[6.852381] (-) TimerEvent: {}
+[6.953201] (-) TimerEvent: {}
+[7.053974] (-) TimerEvent: {}
+[7.154810] (-) TimerEvent: {}
+[7.255609] (-) TimerEvent: {}
+[7.356393] (-) TimerEvent: {}
+[7.457218] (-) TimerEvent: {}
+[7.557996] (-) TimerEvent: {}
+[7.658775] (-) TimerEvent: {}
+[7.759584] (-) TimerEvent: {}
+[7.860369] (-) TimerEvent: {}
+[7.961190] (-) TimerEvent: {}
+[8.061993] (-) TimerEvent: {}
+[8.162756] (-) TimerEvent: {}
+[8.263600] (-) TimerEvent: {}
+[8.364461] (-) TimerEvent: {}
+[8.465293] (-) TimerEvent: {}
+[8.566118] (-) TimerEvent: {}
+[8.667285] (-) TimerEvent: {}
+[8.768048] (-) TimerEvent: {}
+[8.868874] (-) TimerEvent: {}
+[8.969736] (-) TimerEvent: {}
+[9.070564] (-) TimerEvent: {}
+[9.171417] (-) TimerEvent: {}
+[9.272285] (-) TimerEvent: {}
+[9.373125] (-) TimerEvent: {}
+[9.473903] (-) TimerEvent: {}
+[9.574700] (-) TimerEvent: {}
+[9.675495] (-) TimerEvent: {}
+[9.776279] (-) TimerEvent: {}
+[9.877129] (-) TimerEvent: {}
+[9.968849] (gpio) StderrLine: {'line': b'\x1b[01m\x1b[K/home/erica/cat-brain/src/gpio/src/gpio_node.cpp:31:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[9.969674] (gpio) StderrLine: {'line': b'   31 | }\n'}
+[9.970145] (gpio) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.970555] (gpio) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[9.977309] (-) TimerEvent: {}
+[10.078095] (-) TimerEvent: {}
+[10.178882] (-) TimerEvent: {}
+[10.279649] (-) TimerEvent: {}
+[10.380488] (-) TimerEvent: {}
+[10.481281] (-) TimerEvent: {}
+[10.582030] (-) TimerEvent: {}
+[10.682808] (-) TimerEvent: {}
+[10.783592] (-) TimerEvent: {}
+[10.884362] (-) TimerEvent: {}
+[10.985496] (-) TimerEvent: {}
+[11.086286] (-) TimerEvent: {}
+[11.187071] (-) TimerEvent: {}
+[11.287866] (-) TimerEvent: {}
+[11.388646] (-) TimerEvent: {}
+[11.489502] (-) TimerEvent: {}
+[11.590356] (-) TimerEvent: {}
+[11.636059] (gpio) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gpio_node.dir/build.make:76: CMakeFiles/gpio_node.dir/src/gpio_node.cpp.o] Error 1\n'}
+[11.636973] (gpio) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gpio_node.dir/all] Error 2\n'}
+[11.637815] (gpio) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.643737] (gpio) CommandEnded: {'returncode': 2}
+[11.669559] (gpio) JobEnded: {'identifier': 'gpio', 'rc': 2}
+[11.681653] (brain) JobSkipped: {'identifier': 'brain'}
+[11.682257] (-) EventReactorShutdown: {}

@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.001493] (-) JobUnselected: {'identifier': 'brain'}
+[0.001728] (-) JobUnselected: {'identifier': 'gpio'}
+[0.001896] (-) JobUnselected: {'identifier': 'serial'}
+[0.001994] (-) JobUnselected: {'identifier': 'serial_com'}
+[0.002122] (-) JobUnselected: {'identifier': 'teleop'}
+[0.002856] (-) EventReactorShutdown: {}

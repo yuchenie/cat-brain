@@ -1,1 +1,1 @@
-teleop;serial_com;joy;ament_lint_auto;ament_lint_common
+teleop;serial_com;joy;gpio;ament_lint_auto;ament_lint_common

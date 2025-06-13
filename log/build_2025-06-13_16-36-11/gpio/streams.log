@@ -1,0 +1,11 @@
+[0.058s] Invoking command in '/home/erica/cat-brain/build/gpio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/cat-brain/build/gpio -- -j4 -l4
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target gpio_node[0m
+[0.329s] [ 50%] [32mBuilding CXX object CMakeFiles/gpio_node.dir/src/gpio_node.cpp.o[0m
+[12.070s] [01m[K/home/erica/cat-brain/src/gpio/src/gpio_node.cpp:[m[K In member function ‘[01m[Kvoid GPIONode::timer_callback()[m[K’:
+[12.071s] [01m[K/home/erica/cat-brain/src/gpio/src/gpio_node.cpp:39:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[12.071s]    39 |     [01;31m[K}[m[K
+[12.072s]       |     [01;31m[K^[m[K
+[14.270s] gmake[2]: *** [CMakeFiles/gpio_node.dir/build.make:76: CMakeFiles/gpio_node.dir/src/gpio_node.cpp.o] Error 1
+[14.272s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gpio_node.dir/all] Error 2
+[14.273s] gmake: *** [Makefile:146: all] Error 2
+[14.280s] Invoked command in '/home/erica/cat-brain/build/gpio' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/cat-brain/build/gpio -- -j4 -l4

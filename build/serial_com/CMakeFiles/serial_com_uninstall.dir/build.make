@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erica/mercedes-brain/src/serial_com
+CMAKE_SOURCE_DIR = /home/erica/cat-brain/src/serial_com
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erica/mercedes-brain/build/serial_com
+CMAKE_BINARY_DIR = /home/erica/cat-brain/build/serial_com
 
 # Utility rule file for serial_com_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/serial_com_uninstall.dir/compiler_depend.make
 include CMakeFiles/serial_com_uninstall.dir/progress.make
 
 CMakeFiles/serial_com_uninstall:
-	/usr/bin/cmake -P /home/erica/mercedes-brain/build/serial_com/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/erica/cat-brain/build/serial_com/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 serial_com_uninstall: CMakeFiles/serial_com_uninstall
 serial_com_uninstall: CMakeFiles/serial_com_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/serial_com_uninstall.dir/clean:
 .PHONY : CMakeFiles/serial_com_uninstall.dir/clean
 
 CMakeFiles/serial_com_uninstall.dir/depend:
-	cd /home/erica/mercedes-brain/build/serial_com && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erica/mercedes-brain/src/serial_com /home/erica/mercedes-brain/src/serial_com /home/erica/mercedes-brain/build/serial_com /home/erica/mercedes-brain/build/serial_com /home/erica/mercedes-brain/build/serial_com/CMakeFiles/serial_com_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/erica/cat-brain/build/serial_com && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erica/cat-brain/src/serial_com /home/erica/cat-brain/src/serial_com /home/erica/cat-brain/build/serial_com /home/erica/cat-brain/build/serial_com /home/erica/cat-brain/build/serial_com/CMakeFiles/serial_com_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/serial_com_uninstall.dir/depend
 

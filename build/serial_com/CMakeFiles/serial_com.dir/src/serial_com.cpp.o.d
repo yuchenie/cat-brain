@@ -1,5 +1,5 @@
 CMakeFiles/serial_com.dir/src/serial_com.cpp.o: \
- /home/erica/mercedes-brain/src/serial_com/src/serial_com.cpp \
+ /home/erica/cat-brain/src/serial_com/src/serial_com.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
@@ -635,8 +635,8 @@ CMakeFiles/serial_com.dir/src/serial_com.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/erica/mercedes-brain/install/serial/include/serial/serial.h \
- /home/erica/mercedes-brain/install/serial/include/serial/v8stdint.h \
+ /home/erica/cat-brain/install/serial/include/serial/serial.h \
+ /home/erica/cat-brain/install/serial/include/serial/v8stdint.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/float32.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32__builder.hpp \

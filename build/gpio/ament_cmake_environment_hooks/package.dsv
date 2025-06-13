@@ -1,0 +1,4 @@
+source;share/gpio/local_setup.bash
+source;share/gpio/local_setup.dsv
+source;share/gpio/local_setup.sh
+source;share/gpio/local_setup.zsh

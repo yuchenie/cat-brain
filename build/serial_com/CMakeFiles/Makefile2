@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erica/mercedes-brain/src/serial_com
+CMAKE_SOURCE_DIR = /home/erica/cat-brain/src/serial_com
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erica/mercedes-brain/build/serial_com
+CMAKE_BINARY_DIR = /home/erica/cat-brain/build/serial_com
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/serial_com.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/serial_com_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erica/mercedes-brain/build/serial_com/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erica/cat-brain/build/serial_com/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erica/mercedes-brain/build/serial_com/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erica/cat-brain/build/serial_com/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erica/mercedes-brain/build/serial_com/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erica/cat-brain/build/serial_com/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/serial_com_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial_com_uninstall.dir/build.make CMakeFiles/serial_com_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial_com_uninstall.dir/build.make CMakeFiles/serial_com_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erica/mercedes-brain/build/serial_com/CMakeFiles --progress-num= "Built target serial_com_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erica/cat-brain/build/serial_com/CMakeFiles --progress-num= "Built target serial_com_uninstall"
 .PHONY : CMakeFiles/serial_com_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/serial_com_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erica/mercedes-brain/build/serial_com/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erica/cat-brain/build/serial_com/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/serial_com_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erica/mercedes-brain/build/serial_com/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erica/cat-brain/build/serial_com/CMakeFiles 0
 .PHONY : CMakeFiles/serial_com_uninstall.dir/rule
 
 # Convenience name for target.
@@ -135,14 +135,14 @@ CMakeFiles/serial_com_uninstall.dir/clean:
 CMakeFiles/serial_com.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial_com.dir/build.make CMakeFiles/serial_com.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial_com.dir/build.make CMakeFiles/serial_com.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erica/mercedes-brain/build/serial_com/CMakeFiles --progress-num=1,2 "Built target serial_com"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erica/cat-brain/build/serial_com/CMakeFiles --progress-num=1,2 "Built target serial_com"
 .PHONY : CMakeFiles/serial_com.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/serial_com.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erica/mercedes-brain/build/serial_com/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erica/cat-brain/build/serial_com/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/serial_com.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erica/mercedes-brain/build/serial_com/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erica/cat-brain/build/serial_com/CMakeFiles 0
 .PHONY : CMakeFiles/serial_com.dir/rule
 
 # Convenience name for target.

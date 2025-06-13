@@ -1,0 +1,30 @@
+[0.046s] Invoking command in '/home/erica/cat-brain/build/gpio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/cat-brain/build/gpio -- -j4 -l4
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target gpio_node[0m
+[0.313s] [ 50%] [32mBuilding CXX object CMakeFiles/gpio_node.dir/src/gpio_node.cpp.o[0m
+[12.264s] [100%] [32m[1mLinking CXX executable gpio_node[0m
+[12.875s] [100%] Built target gpio_node
+[12.913s] Invoked command in '/home/erica/cat-brain/build/gpio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erica/cat-brain/build/gpio -- -j4 -l4
+[12.953s] Invoking command in '/home/erica/cat-brain/build/gpio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/cat-brain/build/gpio
+[12.981s] -- Install configuration: ""
+[12.982s] -- Installing: /home/erica/cat-brain/install/gpio/lib/gpio/gpio_node
+[12.986s] -- Set runtime path of "/home/erica/cat-brain/install/gpio/lib/gpio/gpio_node" to ""
+[12.987s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/launch
+[12.987s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/launch/launch.py
+[12.988s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/config
+[12.988s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/config/.gitkeep
+[12.989s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/ament_index/resource_index/package_run_dependencies/gpio
+[12.990s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/ament_index/resource_index/parent_prefix_path/gpio
+[12.990s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/environment/ament_prefix_path.sh
+[12.991s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/environment/ament_prefix_path.dsv
+[12.991s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/environment/path.sh
+[12.991s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/environment/path.dsv
+[12.992s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/local_setup.bash
+[12.992s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/local_setup.sh
+[12.993s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/local_setup.zsh
+[12.993s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/local_setup.dsv
+[12.994s] -- Installing: /home/erica/cat-brain/install/gpio/share/gpio/package.dsv
+[12.994s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/ament_index/resource_index/packages/gpio
+[12.996s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/cmake/gpioConfig.cmake
+[12.997s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/cmake/gpioConfig-version.cmake
+[12.998s] -- Up-to-date: /home/erica/cat-brain/install/gpio/share/gpio/package.xml
+[13.000s] Invoked command in '/home/erica/cat-brain/build/gpio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erica/cat-brain/build/gpio

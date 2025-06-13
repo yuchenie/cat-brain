@@ -1,5 +1,5 @@
 CMakeFiles/joy_interpreter.dir/src/joy_interpreter.cpp.o: \
- /home/erica/mercedes-brain/src/teleop/src/joy_interpreter.cpp \
+ /home/erica/cat-brain/src/teleop/src/joy_interpreter.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
