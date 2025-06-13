@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.001560] (-) JobUnselected: {'identifier': 'brain'}
+[0.002099] (-) JobUnselected: {'identifier': 'serial'}
+[0.002586] (-) JobUnselected: {'identifier': 'serial_com'}
+[0.002770] (-) JobUnselected: {'identifier': 'teleop'}
+[0.003048] (gpio) JobQueued: {'identifier': 'gpio', 'dependencies': OrderedDict()}
+[0.003219] (gpio) JobStarted: {'identifier': 'gpio'}
+[0.037984] (gpio) JobProgress: {'identifier': 'gpio', 'progress': 'cmake'}
+[0.041396] (gpio) JobProgress: {'identifier': 'gpio', 'progress': 'build'}
+[0.044703] (gpio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/erica/cat-brain/build/gpio', '--', '-j4', '-l4'], 'cwd': '/home/erica/cat-brain/build/gpio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 29799 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/cat-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/cat-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/cat-brain/build/gpio'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 29799 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble')]), 'shell': False}
+[0.099034] (-) TimerEvent: {}
+[0.199896] (-) TimerEvent: {}
+[0.222497] (gpio) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gpio_node\x1b[0m\n'}
+[0.300080] (-) TimerEvent: {}
+[0.315876] (gpio) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gpio_node.dir/src/gpio_node.cpp.o\x1b[0m\n'}
+[0.400256] (-) TimerEvent: {}
+[0.500991] (-) TimerEvent: {}
+[0.601700] (-) TimerEvent: {}
+[0.702392] (-) TimerEvent: {}
+[0.803066] (-) TimerEvent: {}
+[0.903726] (-) TimerEvent: {}
+[1.004408] (-) TimerEvent: {}
+[1.105222] (-) TimerEvent: {}
+[1.206202] (-) TimerEvent: {}
+[1.306952] (-) TimerEvent: {}
+[1.407640] (-) TimerEvent: {}
+[1.508332] (-) TimerEvent: {}
+[1.609036] (-) TimerEvent: {}
+[1.709720] (-) TimerEvent: {}
+[1.810429] (-) TimerEvent: {}
+[1.911118] (-) TimerEvent: {}
+[2.011888] (-) TimerEvent: {}
+[2.112652] (-) TimerEvent: {}
+[2.213537] (-) TimerEvent: {}
+[2.314347] (-) TimerEvent: {}
+[2.415166] (-) TimerEvent: {}
+[2.516036] (-) TimerEvent: {}
+[2.616872] (-) TimerEvent: {}
+[2.717638] (-) TimerEvent: {}
+[2.818376] (-) TimerEvent: {}
+[2.919170] (-) TimerEvent: {}
+[3.019954] (-) TimerEvent: {}
+[3.120765] (-) TimerEvent: {}
+[3.221551] (-) TimerEvent: {}
+[3.322322] (-) TimerEvent: {}
+[3.423177] (-) TimerEvent: {}
+[3.523932] (-) TimerEvent: {}
+[3.624825] (-) TimerEvent: {}
+[3.725586] (-) TimerEvent: {}
+[3.826338] (-) TimerEvent: {}
+[3.927103] (-) TimerEvent: {}
+[4.027881] (-) TimerEvent: {}
+[4.128658] (-) TimerEvent: {}
+[4.229539] (-) TimerEvent: {}
+[4.330329] (-) TimerEvent: {}
+[4.431170] (-) TimerEvent: {}
+[4.531968] (-) TimerEvent: {}
+[4.632761] (-) TimerEvent: {}
+[4.733544] (-) TimerEvent: {}
+[4.834363] (-) TimerEvent: {}
+[4.935140] (-) TimerEvent: {}
+[5.035914] (-) TimerEvent: {}
+[5.136690] (-) TimerEvent: {}
+[5.237499] (-) TimerEvent: {}
+[5.338315] (-) TimerEvent: {}
+[5.439080] (-) TimerEvent: {}
+[5.539882] (-) TimerEvent: {}
+[5.640627] (-) TimerEvent: {}
+[5.741396] (-) TimerEvent: {}
+[5.842182] (-) TimerEvent: {}
+[5.942939] (-) TimerEvent: {}
+[6.043774] (-) TimerEvent: {}
+[6.144536] (-) TimerEvent: {}
+[6.245357] (-) TimerEvent: {}
+[6.346134] (-) TimerEvent: {}
+[6.446889] (-) TimerEvent: {}
+[6.547662] (-) TimerEvent: {}
+[6.648433] (-) TimerEvent: {}
+[6.749261] (-) TimerEvent: {}
+[6.850030] (-) TimerEvent: {}
+[6.950794] (-) TimerEvent: {}
+[7.051570] (-) TimerEvent: {}
+[7.152344] (-) TimerEvent: {}
+[7.253164] (-) TimerEvent: {}
+[7.353942] (-) TimerEvent: {}
+[7.454718] (-) TimerEvent: {}
+[7.555499] (-) TimerEvent: {}
+[7.656250] (-) TimerEvent: {}
+[7.757021] (-) TimerEvent: {}
+[7.857816] (-) TimerEvent: {}
+[7.958590] (-) TimerEvent: {}
+[8.059373] (-) TimerEvent: {}
+[8.160142] (-) TimerEvent: {}
+[8.261014] (-) TimerEvent: {}
+[8.361796] (-) TimerEvent: {}
+[8.462710] (-) TimerEvent: {}
+[8.563644] (-) TimerEvent: {}
+[8.664492] (-) TimerEvent: {}
+[8.765286] (-) TimerEvent: {}
+[8.866093] (-) TimerEvent: {}
+[8.966895] (-) TimerEvent: {}
+[9.067729] (-) TimerEvent: {}
+[9.168516] (-) TimerEvent: {}
+[9.269335] (-) TimerEvent: {}
+[9.370116] (-) TimerEvent: {}
+[9.470906] (-) TimerEvent: {}
+[9.571665] (-) TimerEvent: {}
+[9.672477] (-) TimerEvent: {}
+[9.773300] (-) TimerEvent: {}
+[9.874062] (-) TimerEvent: {}
+[9.974884] (-) TimerEvent: {}
+[10.075670] (-) TimerEvent: {}
+[10.176439] (-) TimerEvent: {}
+[10.277324] (-) TimerEvent: {}
+[10.378082] (-) TimerEvent: {}
+[10.478877] (-) TimerEvent: {}
+[10.579631] (-) TimerEvent: {}
+[10.680435] (-) TimerEvent: {}
+[10.781235] (-) TimerEvent: {}
+[10.882002] (-) TimerEvent: {}
+[10.982816] (-) TimerEvent: {}
+[11.083589] (-) TimerEvent: {}
+[11.184362] (-) TimerEvent: {}
+[11.285233] (-) TimerEvent: {}
+[11.386045] (-) TimerEvent: {}
+[11.486843] (-) TimerEvent: {}
+[11.587592] (-) TimerEvent: {}
+[11.688417] (-) TimerEvent: {}
+[11.789248] (-) TimerEvent: {}
+[11.890006] (-) TimerEvent: {}
+[11.990843] (-) TimerEvent: {}
+[12.091610] (-) TimerEvent: {}
+[12.192476] (-) TimerEvent: {}
+[12.293453] (-) TimerEvent: {}
+[12.394238] (-) TimerEvent: {}
+[12.400953] (gpio) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gpio_node\x1b[0m\n'}
+[12.494552] (-) TimerEvent: {}
+[12.595635] (-) TimerEvent: {}
+[12.696588] (-) TimerEvent: {}
+[12.797849] (-) TimerEvent: {}
+[12.898746] (-) TimerEvent: {}
+[12.999629] (-) TimerEvent: {}
+[13.017223] (gpio) StdoutLine: {'line': b'[100%] Built target gpio_node\n'}
+[13.055862] (gpio) CommandEnded: {'returncode': 0}
+[13.057850] (gpio) JobProgress: {'identifier': 'gpio', 'progress': 'install'}
+[13.089520] (gpio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/erica/cat-brain/build/gpio'], 'cwd': '/home/erica/cat-brain/build/gpio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'erica'), ('SSH_CLIENT', '192.168.8.141 29799 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/erica/cat-brain/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/erica'), ('OLDPWD', '/home/erica'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1004/bus'), ('COLCON_PREFIX_PATH', '/home/erica/cat-brain/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'erica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1004'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/erica/cat-brain/build/gpio'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.141 29799 192.168.8.238 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/erica/cat-brain/install/gpio:/home/erica/cat-brain/install/brain:/home/erica/cat-brain/install/teleop:/home/erica/cat-brain/install/serial_com:/home/erica/cat-brain/install/serial:/opt/ros/humble')]), 'shell': False}
+[13.099779] (-) TimerEvent: {}
+[13.121273] (gpio) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.122027] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/lib/gpio/gpio_node\n'}
+[13.125818] (gpio) StdoutLine: {'line': b'-- Set runtime path of "/home/erica/cat-brain/install/gpio/lib/gpio/gpio_node" to ""\n'}
+[13.126377] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/launch\n'}
+[13.126886] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/launch/launch.py\n'}
+[13.127657] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/config\n'}
+[13.128284] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/config/.gitkeep\n'}
+[13.130090] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/ament_index/resource_index/package_run_dependencies/gpio\n'}
+[13.131547] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/ament_index/resource_index/parent_prefix_path/gpio\n'}
+[13.132950] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/environment/ament_prefix_path.sh\n'}
+[13.134008] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/environment/ament_prefix_path.dsv\n'}
+[13.135064] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/environment/path.sh\n'}
+[13.136084] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/environment/path.dsv\n'}
+[13.137115] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/local_setup.bash\n'}
+[13.138175] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/local_setup.sh\n'}
+[13.139259] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/local_setup.zsh\n'}
+[13.140268] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/local_setup.dsv\n'}
+[13.141329] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/package.dsv\n'}
+[13.142688] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/ament_index/resource_index/packages/gpio\n'}
+[13.143913] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/cmake/gpioConfig.cmake\n'}
+[13.144835] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/cmake/gpioConfig-version.cmake\n'}
+[13.145840] (gpio) StdoutLine: {'line': b'-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/package.xml\n'}
+[13.151658] (gpio) CommandEnded: {'returncode': 0}
+[13.199903] (-) TimerEvent: {}
+[13.226588] (gpio) JobEnded: {'identifier': 'gpio', 'rc': 0}
+[13.229355] (-) EventReactorShutdown: {}

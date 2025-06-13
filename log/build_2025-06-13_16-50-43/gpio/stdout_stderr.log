@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target gpio_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gpio_node.dir/src/gpio_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable gpio_node[0m
+[100%] Built target gpio_node
+-- Install configuration: ""
+-- Installing: /home/erica/cat-brain/install/gpio/lib/gpio/gpio_node
+-- Set runtime path of "/home/erica/cat-brain/install/gpio/lib/gpio/gpio_node" to ""
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/launch
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/launch/launch.py
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/config
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/config/.gitkeep
+-- Installing: /home/erica/cat-brain/install/gpio/share/ament_index/resource_index/package_run_dependencies/gpio
+-- Installing: /home/erica/cat-brain/install/gpio/share/ament_index/resource_index/parent_prefix_path/gpio
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/environment/ament_prefix_path.sh
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/environment/ament_prefix_path.dsv
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/environment/path.sh
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/environment/path.dsv
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/local_setup.bash
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/local_setup.sh
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/local_setup.zsh
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/local_setup.dsv
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/package.dsv
+-- Installing: /home/erica/cat-brain/install/gpio/share/ament_index/resource_index/packages/gpio
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/cmake/gpioConfig.cmake
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/cmake/gpioConfig-version.cmake
+-- Installing: /home/erica/cat-brain/install/gpio/share/gpio/package.xml

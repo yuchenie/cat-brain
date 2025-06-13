@@ -24,7 +24,7 @@ def generate_launch_description():
     return LaunchDescription(
         [
             launch("teleop", "launch.py"),
-            launch("serial_com", "launch.py")
+            launch("serial_com", "launch.py"),
             launch("gpio", "launch.py")
         ]
     )

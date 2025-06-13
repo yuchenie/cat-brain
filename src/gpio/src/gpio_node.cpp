@@ -19,7 +19,7 @@ public:
 
         set_mode(pi_, 17, PI_OUTPUT);
 
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&GPIONode::timer_callback, this));
+        rc_sub_ = this->create_subscription<ackermann_msgs::msg::AckermannDrive>("rc_msg", 1, std::bind(&GPIONode::rc_callback, this, std::placeholders::_1));
     }
 
     ~GPIONode() {
@@ -30,12 +30,14 @@ public:
 
 private:
     int pi_{-1};
-    rclcpp::TimerBase::SharedPtr timer_;
-    bool toggle_ = false;
+    float velocity_ = 0;
+    rclcpp::Subscription<ackermann_msgs::msg::AckermannDrive>::SharedPtr rc_sub_;
 
-    void timer_callback() {
-        set_PWM_dutycycle(pi_, 17, 128);
-        RCLCPP_INFO(this->get_logger(), "here");
+    void rc_callback(const ackermann_msgs::msg::AckermannDrive::SharedPtr msg) {
+        velocity_ = msg->speed;
+        int pwm = static_cast<int>(std::abs(velocity_) * 255);
+        set_PWM_dutycycle(pi_, 17, pwm);
+        RCLCPP_INFO(this->get_logger(), "Velocity: %f", velocity_);
     }
 };
 
